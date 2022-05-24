@@ -15,7 +15,7 @@ html {
 
 @font-face {
   font-family: "Aguselielstudiofont";
-  src: url(./font/Aguselielstudiofont.ttf) format("truetype");
+  src: url(../font/Aguselielstudiofont.ttf) format("truetype");
 }
 
 body {
