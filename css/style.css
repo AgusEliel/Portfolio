@@ -463,19 +463,26 @@ body::-webkit-scrollbar-thumb:hover {
   filter: opacity(0.4), drop-shadow(#7f5af0);
 }
 
-@media (max-width: 970px) {
+@media (max-width: 1024px) {
   .skills1 {
     flex-direction: column;
     justify-content: center;
     text-align: center;
     padding: 0px;
   }
+
+  .skills1__text {
+    width: 100%;
+  }
   .skills1__technologies {
+    justify-content: center;
     flex-direction: row;
     margin: 30px;
+    width: 100%;
+    font-size: 12vw;
   }
   .skills1__title {
-    font-size: 5rem;
+    font-size: 8vw;
   }
 
   .skills2 {
@@ -484,13 +491,20 @@ body::-webkit-scrollbar-thumb:hover {
     text-align: center;
     padding: 0px;
   }
+
+  .skills2__text {
+    width: 100%;
+  }
   .skills2__tools {
     flex-direction: row;
     justify-content: center;
     margin: 30px;
   }
+  .skills2__img {
+    height: 12vw;
+  }
   .skills2__title {
-    font-size: 5rem;
+    font-size: 8vw;
   }
 }
 
