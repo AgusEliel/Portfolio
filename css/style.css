@@ -91,24 +91,16 @@ a {
 
 /* First Section */
 
-/* .content1 {
-  display: flex;
-  width: 100%;
-  flex-direction: row;
-  flex-wrap: wrap;
-} */
-
 .content1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  /*   background-image: url(./images/backgraund.jpg); */
   background: linear-gradient(
       0deg,
       rgba(19, 19, 19, 1) 0%,
       rgba(19, 19, 19, 0.25) 100%
     ),
-    url(../images/backgraund.jpg);
+    url(../images/background.jpg);
   background-position: center;
   background-size: cover;
 }
