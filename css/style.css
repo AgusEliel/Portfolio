@@ -108,7 +108,7 @@ a {
       rgba(19, 19, 19, 1) 0%,
       rgba(19, 19, 19, 0.25) 100%
     ),
-    url(/images/backgraund.jpg);
+    url(./images/backgraund.jpg);
   background-position: center;
   background-size: cover;
 }
