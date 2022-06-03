@@ -1,0 +1,45 @@
+/* FOOTER */
+.footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 230px;
+    background-color: #ffebd4;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: default;
+    color: #131313;
+  }
+  
+  .footer__title {
+    font-family: "Aguselielstudiofont";
+    font-size: 4rem;
+    padding: 10px;
+    color: #131313;
+  }
+  
+  .footer__img {
+    padding-top: 20px;
+    width: 500px;
+  }
+  
+  .footer__icons {
+    color: #131313;
+    text-decoration: none;
+  }
+  
+  .footer__icons:hover {
+    transform: scale(1.1);
+    color: #7f5af0;
+  }
+  .footer__text {
+    padding-top: 15px;
+    font-size: 15px;
+  }
+  
+  @media (max-width: 912px) {
+    .footer__title {
+      font-size: 10vw;
+    }
+  }
