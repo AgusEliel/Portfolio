@@ -1,62 +1,16 @@
 /* CONTACT ME */
 
 .section__contactme {
-  display: grid;
+  display: flex;
   width: 100%;
   height: 100vh;
   background-color: #131313;
   color: #ffebd4;
   padding: 50px;
-  grid-template-columns: 1fr 1.1fr;
   align-items: center;
+  justify-content: center;
 }
 
-.section__contactme__location {
-  display: flex;
-  font-size: 40px;
-  align-items: center;
-  width: 550px;
-  height: 100%;
-}
-
-.location__content {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  row-gap: 20px;
-}
-
-.content__location {
-  display: flex;
-  width: 550;
-}
-
-.fa-location-dot {
-  padding-right: 20px;
-}
-
-.fa-envelope {
-  padding-right: 20px;
-}
-
-.content__mail {
-  display: flex;
-  width: 550;
-  align-content: center;
-  align-items: center;
-}
-
-.section__mail {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  align-items: center;
-  align-content: center;
-  justify-items: center;
-  height: 60vh;
-  padding: 30px;
-  border: solid 2px #ffebd4;
-}
 
 .section__mail__text {
   font-size: 2.5rem;
@@ -65,45 +19,41 @@
 
 .form {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 100%;
-  box-sizing: border-box;
-  font-weight: 600;
+  flex-direction: column;
+  width: 50vw;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+  padding: 30px;
+  border: solid 2px #ffebd4;
+  transition: 500ms;
 }
 
-.city{
-  font-size: 2.5rem;
-  font-weight: 400;
-}
-.mailp{
-  font-size: 2.5rem;
-  font-weight: 400;
-}
 
 #name {
-  width: 45%;
+  width: 100%;
   height: 40px;
   color: #ffebd4;
   border-radius: 8px;
   border: solid 2px #ffebd4;
   background-color: #131313;
   padding: 10px;
-  margin: 10px 0px 10px 10px;
+  margin: 10px;
   font-size: 1.1rem;
   font-weight: 400;
   outline: none;
   transition: 350ms;
 }
 #mail {
-  width: 45%;
+  width: 100%;
   height: 40px;
   color: #ffebd4;
   border-radius: 8px;
   border: solid 2px #ffebd4;
   background-color: #131313;
   padding: 10px;
-  margin: 10px 10px 10px 0px;
+  margin: 10px;
   font-size: 1.1rem;
   font-weight: 400;
   outline: none;
@@ -126,7 +76,7 @@
 
 #message {
   width: 100%;
-  height: 100px;
+  height: 5rem;
   color: #ffebd4;
   border-radius: 8px;
   border: solid 2px #ffebd4;
@@ -164,6 +114,10 @@
   border: solid 2px #2cb67d;
 }
 #message:valid {
+  border: solid 2px #2cb67d;
+}
+
+.form:valid{
   border: solid 2px #2cb67d;
 }
 
@@ -207,32 +161,11 @@
   border-color: #7f5af0;
 }
 
-@media (max-width: 768px) {
-  .section__contactme {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    justify-content: center;
-    align-items: center;
+@media (max-width: 912px){
+  .section__contactme{
+    width:100%;
   }
-  .section__mail {
+  .form{
     width: 100%;
-    background-color: #131313;
-    justify-content: center;
-    padding: 0;
-  }
-
-  .form {
-    width: 100%;
-  }
-
-  .city {
-    font-size: 5vw;
-  }
-
-  .mailp {
-    font-size: 5vw;
-  }
-  #btn_submit {
-    margin: 10px 15px 15px 15px;
   }
 }

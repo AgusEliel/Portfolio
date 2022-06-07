@@ -33,21 +33,3 @@
     font-weight: 500;
     color: #7f5af0;
   }
-  
-  @media (max-width: 970px) {
-    .section__contactme {
-      display: grid;
-      width: 100%;
-      padding: 50px;
-      justify-content: center;
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr;
-    }
-    .section__contactme__location {
-      width: 100%;
-      justify-content: center;
-    }
-    .contentProjects__text {
-      font-size: 10vw;
-    }
-  }
