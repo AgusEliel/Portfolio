@@ -650,16 +650,17 @@ img.content2__bloque1_img {
   display: grid;
   background-color: #131313;
   width: 100%;
-  grid-template-columns: 0.6fr 3fr; }
+  grid-template-columns: 0.5fr 3fr; }
 
 .list {
   display: flex;
   color: #ffebd4;
   height: 100vh;
-  align-items: center;
+  margin-top: 100px;
+  align-items: flex-start;
   justify-content: flex-start;
   font-size: 2.4rem;
-  margin-left: 1rem; }
+  margin-left: 1.6rem; }
 
 .list__menu {
   position: fixed;
@@ -676,86 +677,142 @@ img.content2__bloque1_img {
 
 .art {
   display: grid;
-  margin: 0px;
+  margin-top: 71px;
   grid-template-columns: repeat(3, 1auto);
-  grid-template-rows: repeat(7, 1auto); }
+  grid-template-rows: repeat(5, 1auto);
+  grid-gap: px;
+  border-left: solid 1px #ffebd4; }
 
 .image1 {
   width: 100%;
   height: 100%;
   object-fit: contain;
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 2;
   grid-row-start: 1;
-  grid-row-end: 3; }
+  grid-row-end: 2;
+  transition: 350ms; }
 
 .image2 {
   width: 100%;
   object-fit: contain;
-  grid-column-start: 3;
-  grid-column-end: 4; }
+  grid-column-start: 2;
+  grid-column-end: 3;
+  transition: 350ms; }
 
 .image3 {
   width: 100%;
   object-fit: contain;
-  grid-column: 3;
-  grid-row-start: 2; }
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  transition: 350ms; }
 
 .image4 {
   width: 100%;
-  object-fit: contain; }
+  object-fit: contain;
+  transition: 350ms; }
 
 .image5 {
   width: 100%;
-  object-fit: contain; }
+  object-fit: contain;
+  transition: 350ms; }
 
 .image6 {
   width: 100%;
-  object-fit: contain; }
+  object-fit: contain;
+  transition: 350ms; }
 
 .image7 {
   width: 100%;
-  object-fit: contain; }
+  object-fit: contain;
+  transition: 350ms; }
 
 .image8 {
   width: 100%;
   object-fit: contain;
-  grid-column-start: 2;
-  grid-column-end: 4;
-  grid-row-start: 4;
-  grid-row-end: 6; }
+  transition: 350ms; }
 
 .image9 {
   width: 100%;
   object-fit: contain;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 6;
-  grid-row-end: 7; }
+  transition: 350ms; }
 
 .image10 {
   width: 100%;
-  object-fit: contain; }
+  object-fit: contain;
+  transition: 350ms; }
 
 .image11 {
   width: 100%;
-  object-fit: contain; }
+  object-fit: contain;
+  transition: 350ms; }
 
 .image12 {
   width: 100%;
-  object-fit: contain; }
+  object-fit: contain;
+  transition: 350ms; }
 
 .image13 {
   width: 100%;
-  object-fit: contain; }
+  object-fit: contain;
+  transition: 350ms; }
 
 .image14 {
   width: 100%;
-  object-fit: contain; }
+  object-fit: contain;
+  transition: 350ms; }
 
 .image15 {
   width: 100%;
-  object-fit: contain; }
+  object-fit: contain;
+  transition: 350ms; }
+
+.image1:hover {
+  transform: scale(1.05); }
+
+.image2:hover {
+  transform: scale(1.05); }
+
+.image3:hover {
+  transform: scale(1.05); }
+
+.image4:hover {
+  transform: scale(1.05); }
+
+.image5:hover {
+  transform: scale(1.05); }
+
+.image6:hover {
+  transform: scale(1.05); }
+
+.image7:hover {
+  transform: scale(1.05); }
+
+.image8:hover {
+  transform: scale(1.05); }
+
+.image9:hover {
+  transform: scale(1.05); }
+
+.image10:hover {
+  transform: scale(1.05); }
+
+.image11:hover {
+  transform: scale(1.05); }
+
+.image12:hover {
+  transform: scale(1.05); }
+
+.image13:hover {
+  transform: scale(1.05); }
+
+.image14:hover {
+  transform: scale(1.05); }
+
+.image15:hover {
+  transform: scale(1.05); }
 
 /* FOOTER */
 .footer {
