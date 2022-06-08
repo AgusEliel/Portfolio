@@ -6,31 +6,37 @@
     height: 100vh;
     background-color: #131313;
     color: #ffebd4;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    padding: 50px;
+    flex-direction: column;
+    gap: 40px;
   }
-  
   .skills1__text {
     display: flex;
     flex-direction: column;
-    width: 600px;
     font-weight: 400;
     font-size: 20px;
+    text-align: center;
+    justify-content: center;
   }
   
   .skills1__title {
     font-size: 100px;
     font-weight: 600;
+    text-align: center;
   }
+  .skills1__p{
+    width: 600px;
+    margin: auto;
+  }
+  
   
   .skills1__technologies {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     font-size: 100px;
     gap: 30px;
-    align-items: center;
+    justify-content: center;
   }
   
   .skills2 {
@@ -39,19 +45,20 @@
     height: 100vh;
     background-color: #ffebd4;
     color: #131313;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    padding: 50px;
+    flex-direction: column;
+    gap: 40px;
     border-bottom: 1px solid #131313;
   }
   
   .skills2__text {
     display: flex;
     flex-direction: column;
-    width: 600px;
     font-weight: 400;
     font-size: 20px;
+    text-align: center;
+    justify-content: center;
   }
   
   .skills2__title {
@@ -61,10 +68,11 @@
   
   .skills2__tools {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     max-width: 300px;
     gap: 30px;
     align-items: center;
+    justify-content: center;
   }
   
   .skills2__img {
@@ -73,16 +81,12 @@
   }
   
   @media (max-width: 1024px) {
-    .skills1 {
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-      padding: 0px;
+    .skills1{
+      padding: 10px;
     }
+    
   
-    .skills1__text {
-      width: 100%;
-    }
+    
     .skills1__technologies {
       justify-content: center;
       flex-direction: row;
@@ -98,7 +102,7 @@
       flex-direction: column;
       justify-content: center;
       text-align: center;
-      padding: 0px;
+      padding: 10px;
     }
   
     .skills2__text {
@@ -114,5 +118,10 @@
     }
     .skills2__title {
       font-size: 8vw;
+    }
+    .skills1__p{
+      width: 100%;
+      margin: auto;
+      font-size: 2.5;
     }
   }
