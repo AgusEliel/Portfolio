@@ -42,7 +42,7 @@ body {
   opacity: 0.028;
   z-index: 1000;
   pointer-events: none;
-  background: url(/noise.gif); }
+  background: url(../images/noise.gif); }
 
 a {
   text-decoration: none; }
