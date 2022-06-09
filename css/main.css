@@ -138,8 +138,8 @@ ul {
 .content1__bloque2__marco {
   display: flex;
   flex-direction: column;
-  width: 550px;
-  height: 550px;
+  width: 34vw;
+  height: 34vw;
   border: solid;
   border-color: #ffebd4;
   border-radius: 50px;
@@ -156,7 +156,7 @@ ul {
 
 .content1__bloque2__marco__ae {
   font-family: Aguselielstudiofont;
-  font-size: 300px;
+  font-size: 17vw;
   color: #ffebd4; }
 
 .content1__bloque2__marco__p {
@@ -171,9 +171,10 @@ ul {
   display: flex;
   font-weight: 700;
   font-style: italic;
-  font-size: 8rem;
+  font-size: 7rem;
   color: #ffebd4;
-  font-family: "Playfair Display"; }
+  font-family: "Playfair Display";
+  text-align: left; }
 
 .content1__label {
   color: #ffebd4;
@@ -214,14 +215,17 @@ ul {
     padding: 0; }
   .content1__bloque2 {
     background: #131313;
+    height: 60vh;
     width: 100%; }
   .content1__bloque2__marco__ae {
     color: #ffebd4;
-    font-size: 200px; }
+    font-size: 25vw; }
   .content1__bloque2__marco {
     color: #ffebd4;
-    width: 350px;
-    height: 350px; } }
+    width: 50vw;
+    height: 50vw; }
+  .content1__title {
+    text-align: center; } }
 
 /* HOME2 */
 .content2 {
@@ -246,7 +250,8 @@ img.content2__bloque1_img {
   flex-direction: column;
   align-items: center;
   padding-top: 131px;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 30px; }
 
 .content2__bloque2__h2 {
   color: #ffebd4;
@@ -290,13 +295,14 @@ img.content2__bloque1_img {
   .content2__bloque2 {
     display: flex;
     width: 100%;
-    height: auto;
+    height: 100vh;
     text-align: center;
-    padding: 0px; }
+    padding: 0px;
+    justify-content: center; }
   .content2__bloque2__h2 {
     font-size: 370%; }
   .content2__bloque2__text {
-    font-size: 4vh; }
+    font-size: 3.5vh; }
   .content2__bloque2__btn {
     margin-top: 30px;
     margin-bottom: 30px; } }
@@ -383,7 +389,7 @@ img.content2__bloque1_img {
     width: 100%;
     font-size: 12vw; }
   .skills1__title {
-    font-size: 8vw; }
+    font-size: 10vw; }
   .skills2 {
     flex-direction: column;
     justify-content: center;
@@ -398,7 +404,7 @@ img.content2__bloque1_img {
   .skills2__img {
     height: 12vw; }
   .skills2__title {
-    font-size: 8vw; }
+    font-size: 10vw; }
   .skills1__p {
     width: 100%;
     margin: auto;
@@ -620,7 +626,9 @@ img.content2__bloque1_img {
   margin-top: 71px;
   grid-template-columns: repeat(3, 1auto);
   grid-template-rows: repeat(5, 1auto);
-  border-left: solid 1px #ffebd4; }
+  border-left: solid 1px #ffebd4;
+  gap: 15px;
+  padding: 15px 15px 30px 15px; }
 
 .image1 {
   width: 100%;
@@ -710,63 +718,63 @@ img.content2__bloque1_img {
 
 .image1:hover {
   transform: scale(1.05);
-  border: solid #7f5af0 2px; }
+  box-shadow: 0 0 0 2px #7f5af0; }
 
 .image2:hover {
   transform: scale(1.05);
-  border: solid #7f5af0 2px; }
+  box-shadow: 0 0 0 2px #7f5af0; }
 
 .image3:hover {
   transform: scale(1.05);
-  border: solid #7f5af0 2px; }
+  box-shadow: 0 0 0 2px #7f5af0; }
 
 .image4:hover {
   transform: scale(1.05);
-  border: solid #7f5af0 2px; }
+  box-shadow: 0 0 0 2px #7f5af0; }
 
 .image5:hover {
   transform: scale(1.05);
-  border: solid #7f5af0 2px; }
+  box-shadow: 0 0 0 2px #7f5af0; }
 
 .image6:hover {
   transform: scale(1.05);
-  border: solid #7f5af0 2px; }
+  box-shadow: 0 0 0 2px #7f5af0; }
 
 .image7:hover {
   transform: scale(1.05);
-  border: solid #7f5af0 2px; }
+  box-shadow: 0 0 0 2px #7f5af0; }
 
 .image8:hover {
   transform: scale(1.05);
-  border: solid #7f5af0 2px; }
+  box-shadow: 0 0 0 2px #7f5af0; }
 
 .image9:hover {
   transform: scale(1.05);
-  border: solid #7f5af0 2px; }
+  box-shadow: 0 0 0 2px #7f5af0; }
 
 .image10:hover {
   transform: scale(1.05);
-  border: solid #7f5af0 2px; }
+  box-shadow: 0 0 0 2px #7f5af0; }
 
 .image11:hover {
   transform: scale(1.05);
-  border: solid #7f5af0 2px; }
+  box-shadow: 0 0 0 2px #7f5af0; }
 
 .image12:hover {
   transform: scale(1.05);
-  border: solid #7f5af0 2px; }
+  box-shadow: 0 0 0 2px #7f5af0; }
 
 .image13:hover {
   transform: scale(1.05);
-  border: solid #7f5af0 2px; }
+  box-shadow: 0 0 0 2px #7f5af0; }
 
 .image14:hover {
   transform: scale(1.05);
-  border: solid #7f5af0 2px; }
+  box-shadow: 0 0 0 2px #7f5af0; }
 
 .image15:hover {
   transform: scale(1.05);
-  border: solid #7f5af0 2px; }
+  box-shadow: 0 0 0 2px #7f5af0; }
 
 @media (max-width: 912px) {
   .art {

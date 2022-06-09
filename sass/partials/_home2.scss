@@ -26,6 +26,7 @@
     align-items: center;
     padding-top: 131px;
     text-align: center;
+    margin-bottom: 30px;
   }
   
   .content2__bloque2__h2 {
@@ -76,9 +77,10 @@
     .content2__bloque2 {
       display: flex;
       width: 100%;
-      height: auto;
+      height: 100vh;
       text-align: center;
       padding: 0px;
+      justify-content: center;
     }
   
     .content2__bloque2__h2 {
@@ -86,7 +88,7 @@
     }
   
     .content2__bloque2__text {
-      font-size: 4vh;
+      font-size: 3.5vh;
     }
     .content2__bloque2__btn {
       margin-top: 30px;

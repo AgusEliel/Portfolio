@@ -38,6 +38,8 @@
   grid-template-columns: repeat(3, 1auto);
   grid-template-rows: repeat(5, 1auto);
   border-left: solid 1px #ffebd4;
+  gap: 15px;
+  padding: 15px 15px 30px 15px;
 }
 
 .image1 {
@@ -129,63 +131,63 @@
 
 .image1:hover{
   transform: scale(1.05);
-  border: solid #7f5af0 2px;
+  box-shadow: 0 0 0 2px #7f5af0;
 }
 .image2:hover{
   transform: scale(1.05);
-  border: solid #7f5af0 2px;
+  box-shadow: 0 0 0 2px #7f5af0;
 }
 .image3:hover{
   transform: scale(1.05);
-  border: solid #7f5af0 2px;
+  box-shadow: 0 0 0 2px #7f5af0;
 }
 .image4:hover{
   transform: scale(1.05);
-  border: solid #7f5af0 2px;
+  box-shadow: 0 0 0 2px #7f5af0;
 }
 .image5:hover{
   transform: scale(1.05);
-  border: solid #7f5af0 2px;
+  box-shadow: 0 0 0 2px #7f5af0;
 }
 .image6:hover{
   transform: scale(1.05);
-  border: solid #7f5af0 2px;
+  box-shadow: 0 0 0 2px #7f5af0;
 }
 .image7:hover{
   transform: scale(1.05);
-  border: solid #7f5af0 2px;
+  box-shadow: 0 0 0 2px #7f5af0;
 }
 .image8:hover{
   transform: scale(1.05);
-  border: solid #7f5af0 2px;
+  box-shadow: 0 0 0 2px #7f5af0;
 }
 .image9:hover{
   transform: scale(1.05);
-  border: solid #7f5af0 2px;
+  box-shadow: 0 0 0 2px #7f5af0;
 }
 .image10:hover{
   transform: scale(1.05);
-  border: solid #7f5af0 2px;
+  box-shadow: 0 0 0 2px #7f5af0;
 }
 .image11:hover{
   transform: scale(1.05);
-  border: solid #7f5af0 2px;
+  box-shadow: 0 0 0 2px #7f5af0;
 }
 .image12:hover{
   transform: scale(1.05);
-  border: solid #7f5af0 2px;
+  box-shadow: 0 0 0 2px #7f5af0;
 }
 .image13:hover{
   transform: scale(1.05);
-  border: solid #7f5af0 2px;
+  box-shadow: 0 0 0 2px #7f5af0;
 }
 .image14:hover{
   transform: scale(1.05);
-  border: solid #7f5af0 2px;
+  box-shadow: 0 0 0 2px #7f5af0;
 }
 .image15:hover{
   transform: scale(1.05);
-  border: solid #7f5af0 2px;
+  box-shadow: 0 0 0 2px #7f5af0;
 }
 
 @media (max-width: 912px){
