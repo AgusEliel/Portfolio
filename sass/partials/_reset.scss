@@ -22,18 +22,7 @@
   body {
     font-family: "Roboto", "Playfair Display", serif, "Aguselielstudiofont";
   }
-  .noise::before {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    content: "";
-    opacity: 0.027;
-    z-index: 1000;
-    pointer-events: none;
-    background: url(../images/noise.gif);
-  }
+  
   
   a {
     text-decoration: none;
