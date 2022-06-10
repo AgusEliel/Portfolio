@@ -1,0 +1,56 @@
+.aestudio {
+    display: grid;
+    background-color: #131313;
+    width: 100%;
+    grid-template-columns: 0.3fr 3fr;
+  }
+
+.list2 {
+    display: flex;
+    color: $aeWhite;
+    margin-top: 100px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 2.4rem;
+    margin-left: 1.6rem;
+    box-sizing: content-box;
+    padding: 1rem;
+    background-color: #131313;
+  }
+
+.list__menu2 {
+    position: static;
+    color: #ffebd412;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.projects2{
+    font-style: italic;
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #7f5af0;
+  }
+
+
+.brandcontent{
+    display: flex;
+    width: 100%;
+    background-color: #ffebd4;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .aeimage{
+    width: 100%;
+  }
+
+  @media (max-width: 768px){
+    .aestudio{
+        display: flex;
+    }
+    .list2{
+      display: none;
+    } 
+}

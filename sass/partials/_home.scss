@@ -1,9 +1,7 @@
 /* HOME */
 
 .content1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    display: flex;
     background: linear-gradient(
         0deg,
         rgba(19, 19, 19, 1) 0%,
@@ -18,72 +16,27 @@
     height: 100vh;
     width: 100%;
     display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-left: 50px;
-    padding-bottom: 140px;
-  }
-  
-  .content1__bloque2 {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
     justify-content: center;
-  }
-  
-  .content1__bloque2__marco {
-    display: flex;
     flex-direction: column;
-    width: 34vw;
-    height: 34vw;
-    border: solid;
-    border-color: #ffebd4;
-    border-radius: 50px;
-    justify-content: center;
     align-items: center;
-    cursor: pointer;
-    text-decoration: none;
-    transition: 350ms;
   }
-  
-  .content1__bloque2__marco:hover {
-    box-shadow: 16px 15px 0px 2px #ffebd4;
-    -webkit-box-shadow: 16px 15px 0px 2px #ffebd4;
-    -moz-box-shadow: 16px 15px 0px 2px #ffebd4;
-  }
-  
-  .content1__bloque2__marco__ae {
-    font-family: Aguselielstudiofont;
-    font-size: 17vw;
-    color: #ffebd4;
-  }
-  
-  .content1__bloque2__marco__p {
-    font-family: "Roboto";
-    font-size: 25px;
-    font-weight: 500;
-    padding-top: 30px;
-    color: #ffebd4;
-  }
-  
   
   .content1__title {
     text-align: center;
     display: flex;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 7rem;
+    font-weight: 500;
+    font-size: 12vw;
     color: #ffebd4;
     font-family: "Playfair Display";
     text-align: left;
+    font-style: italic;
   }
   
   .content1__label {
       color: #ffebd4;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 400;
+    
 }
   
 .content1__btn {
@@ -91,9 +44,9 @@
     font-weight: 700;
     border-radius: 24px;
     margin-top: 20px;
-    padding: 10px 10px;
+    padding: 10px;
     text-decoration: none;
-    background: #131313;
+    background: none;
     border-style: solid;
     border-color: #ffebd4;
     transition: 350ms;
@@ -118,6 +71,7 @@
 
   .content1__bloque1 {
     background-color: #131313;
+    height: 100vh;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -125,20 +79,14 @@
   }
   .content1__bloque2 {
     background: #131313;
-    height: 60vh;
+    height: 50vh;
     width: 100%;
-  }
-
-  .content1__bloque2__marco__ae {
-    color: #ffebd4;
-    font-size: 25vw;
-  }
-  .content1__bloque2__marco {
-    color: #ffebd4;
-    width: 50vw;
-    height: 50vw;
+    align-items: flex-start;
   }
   .content1__title{
     text-align: center;
+  }
+  .content1__label{
+    font-size: 18px;
   }
 }
