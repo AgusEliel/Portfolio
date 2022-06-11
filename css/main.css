@@ -602,8 +602,8 @@ img.content2__bloque1_img {
   grid-template-columns: repeat(3, 1auto);
   grid-template-rows: repeat(5, 1auto);
   border-left: solid 1px #ffebd4;
-  gap: 15px;
-  padding: 15px 15px 30px 15px; }
+  gap: 46px;
+  padding: 46px; }
 
 .image1 {
   width: 100%;
@@ -919,7 +919,10 @@ img.content2__bloque1_img {
   width: 100%;
   background-color: #ffebd4;
   justify-content: center;
-  flex-direction: column; }
+  flex-direction: column;
+  gap: 46px;
+  padding: 46px;
+  border-bottom: solid 1px #131313; }
 
 .aeimage {
   width: 100%; }
