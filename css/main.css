@@ -22,9 +22,6 @@ body::-webkit-scrollbar-thumb:hover {
   background: #7f5af0;
   color: #ffebd4; }
 
-html {
-  scroll-behavior: smooth; }
-
 @font-face {
   font-family: "Aguselielstudiofont";
   src: url(../font/Aguselielstudiofont.ttf) format("truetype"); }
@@ -39,6 +36,9 @@ html {
 
 body {
   font-family: "Roboto", "Playfair Display", serif, "Aguselielstudiofont"; }
+
+html {
+  scroll-behavior: smooth; }
 
 .noise::before {
   position: fixed;
@@ -354,7 +354,7 @@ img.content2__bloque1_img {
   height: 100px;
   filter: opacity(0.4), drop-shadow(#7f5af0); }
 
-@media (max-width: 1024px) {
+@media (max-width: 912px) {
   .skills1 {
     padding: 10px; }
   .skills1__technologies {
@@ -362,7 +362,8 @@ img.content2__bloque1_img {
     flex-direction: row;
     margin: 30px;
     width: 100%;
-    font-size: 12vw; }
+    font-size: 10vw;
+    overflow: hidden; }
   .skills1__title {
     font-size: 10vw; }
   .skills2 {
@@ -377,11 +378,12 @@ img.content2__bloque1_img {
     justify-content: center;
     margin: 30px; }
   .skills2__img {
-    height: 12vw; }
+    height: 10vw;
+    overflow: hidden; }
   .skills2__title {
     font-size: 10vw; }
   .skills1__p {
-    width: 100%;
+    width: 80%;
     margin: auto;
     font-size: 2.5; } }
 
@@ -599,8 +601,8 @@ img.content2__bloque1_img {
 .art {
   display: grid;
   margin-top: 71px;
-  grid-template-columns: repeat(3, 1auto);
-  grid-template-rows: repeat(5, 1auto);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
   border-left: solid 1px #ffebd4;
   gap: 46px;
   padding: 46px; }
@@ -609,87 +611,107 @@ img.content2__bloque1_img {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
+  grid-column: 1/2;
+  grid-row: 1/2;
   transition: 350ms; }
 
 .image2 {
   width: 100%;
   object-fit: contain;
-  grid-column-start: 2;
-  grid-column-end: 3;
+  grid-column: 2/3;
+  grid-row: 1/2;
   transition: 350ms; }
 
 .image3 {
   width: 100%;
   object-fit: contain;
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
+  grid-column: 3/4;
+  grid-row: 1/2;
   transition: 350ms; }
 
 .image4 {
   width: 100%;
   object-fit: contain;
-  transition: 350ms; }
+  transition: 350ms;
+  grid-column: 1/2;
+  grid-row: 2/3; }
 
 .image5 {
   width: 100%;
   object-fit: contain;
-  transition: 350ms; }
+  transition: 350ms;
+  grid-column: 2/3;
+  grid-row: 2/3; }
 
 .image6 {
   width: 100%;
   object-fit: contain;
-  transition: 350ms; }
+  transition: 350ms;
+  grid-column: 3/4;
+  grid-row: 2/3; }
 
 .image7 {
   width: 100%;
   object-fit: contain;
-  transition: 350ms; }
+  transition: 350ms;
+  grid-column: 1/2;
+  grid-row: 3/4; }
 
 .image8 {
   width: 100%;
   object-fit: contain;
-  transition: 350ms; }
+  transition: 350ms;
+  grid-column: 2/3;
+  grid-row: 3/4; }
 
 .image9 {
   width: 100%;
   object-fit: contain;
-  transition: 350ms; }
+  transition: 350ms;
+  grid-column: 3/4;
+  grid-row: 3/4; }
 
 .image10 {
   width: 100%;
   object-fit: contain;
-  transition: 350ms; }
+  transition: 350ms;
+  grid-column: 1/2;
+  grid-row: 4/5; }
 
 .image11 {
   width: 100%;
   object-fit: contain;
-  transition: 350ms; }
+  transition: 350ms;
+  grid-column: 2/3;
+  grid-row: 4/5; }
 
 .image12 {
   width: 100%;
   object-fit: contain;
-  transition: 350ms; }
+  transition: 350ms;
+  grid-column: 3/4;
+  grid-row: 4/5; }
 
 .image13 {
   width: 100%;
   object-fit: contain;
-  transition: 350ms; }
+  transition: 350ms;
+  grid-column: 1/2;
+  grid-row: 5/6; }
 
 .image14 {
   width: 100%;
   object-fit: contain;
-  transition: 350ms; }
+  transition: 350ms;
+  grid-column: 2/3;
+  grid-row: 5/6; }
 
 .image15 {
   width: 100%;
   object-fit: contain;
-  transition: 350ms; }
+  transition: 350ms;
+  grid-column: 3/4;
+  grid-row: 5/6; }
 
 .image1:hover {
   transform: scale(1.05);

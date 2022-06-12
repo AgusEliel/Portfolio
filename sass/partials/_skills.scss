@@ -80,19 +80,18 @@
     filter: opacity(0.4), drop-shadow(#7f5af0);
   }
   
-  @media (max-width: 1024px) {
+  @media (max-width: 912px) {
     .skills1{
       padding: 10px;
     }
-    
-  
     
     .skills1__technologies {
       justify-content: center;
       flex-direction: row;
       margin: 30px;
       width: 100%;
-      font-size: 12vw;
+      font-size: 10vw;
+      overflow: hidden;
     }
     .skills1__title {
       font-size: 10vw;
@@ -114,13 +113,14 @@
       margin: 30px;
     }
     .skills2__img {
-      height: 12vw;
+      height: 10vw;
+      overflow: hidden;
     }
     .skills2__title {
       font-size: 10vw;
     }
     .skills1__p{
-      width: 100%;
+      width: 80%;
       margin: auto;
       font-size: 2.5;
     }

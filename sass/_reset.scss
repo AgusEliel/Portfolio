@@ -10,20 +10,17 @@
     color: $aeWhite;
   }
   
-  html {
-    scroll-behavior: smooth;
-  }
   
   @font-face {
     font-family: "Aguselielstudiofont";
     src: url(../font/Aguselielstudiofont.ttf) format("truetype");
   }
-
+  
   @font-face{
     font-family: "IskryRegular";
     src: url(../font/Iskry-Regular.otf);
   }
-
+  
   @font-face{
     font-family: "IskryBold";
     src: url(../font/Iskry-Bold.otf);
@@ -31,6 +28,10 @@
   
   body {
     font-family: "Roboto", "Playfair Display", serif, "Aguselielstudiofont";
+    
+  }
+  html {
+    scroll-behavior: smooth;
   }
   
   .noise::before {
