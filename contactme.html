@@ -136,20 +136,27 @@
         />
         <input
           id="phone"
-          type="number"
+          type="tel"
           name="phone"
           required="required"
           placeholder="Phone"
+          minlength="10"
+          maxlength="10"
         />
         <textarea
           name="Message"
           id="message"
           required="required"
           placeholder="Type your message here"
+          maxlength="240"
         ></textarea>
-        <button type="submit" form="form1" value="Submit" id="btn_submit">
-          Submit
-        </button>
+        <input
+          type="submit"
+          form="form1"
+          value="Submit"
+          placeholder="Submit"
+          id="btn_submit"
+        />
       </form>
     </section>
     <footer class="footer">

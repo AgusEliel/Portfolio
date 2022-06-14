@@ -27,6 +27,8 @@
   .footer__icons {
     color: #131313;
     text-decoration: none;
+    transition: 350ms;
+    font-size: 1.15em;
   }
   
   .footer__icons:hover {
@@ -35,7 +37,7 @@
   }
   .footer__text {
     padding-top: 15px;
-    font-size: 15px;
+    font-size: 18px;
   }
   
   @media (max-width: 912px) {
