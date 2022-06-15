@@ -1,6 +1,6 @@
 /* CONTACT ME */
 
-.section__contactme {
+.contactme {
   display: flex;
   width: 100%;
   height: 100vh;
@@ -9,27 +9,26 @@
   padding: 50px;
   align-items: center;
   justify-content: center;
+  &__form {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    padding: 30px;
+    border: solid 2px #ffebd4;
+    transition: 500ms;
+    &__title {
+      font-size: 2.5rem;
+      font-weight: 400;
+    }
+    &:valid {
+      border: solid 2px #2cb67d;
+    }
+  }
 }
-
-
-.section__mail__text {
-  font-size: 2.5rem;
-  font-weight: 400;
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
-  width: 50vw;
-  align-items: center;
-  align-content: center;
-  justify-items: center;
-  justify-content: center;
-  padding: 30px;
-  border: solid 2px #ffebd4;
-  transition: 500ms;
-}
-
 
 #name {
   width: 100%;
@@ -44,6 +43,12 @@
   font-weight: 400;
   outline: none;
   transition: 350ms;
+  &:focus {
+    border: solid 2px #7f5af0;
+  }
+  &:valid {
+    border: solid 2px #2cb67d;
+  }
 }
 #mail {
   width: 100%;
@@ -58,6 +63,12 @@
   font-weight: 400;
   outline: none;
   transition: 350ms;
+  &:focus {
+    border: solid 2px #7f5af0;
+  }
+  &:valid {
+    border: solid 2px #2cb67d;
+  }
 }
 #phone {
   width: 100%;
@@ -72,6 +83,12 @@
   font-weight: 400;
   outline: none;
   transition: 350ms;
+  &:focus {
+    border: solid 2px #7f5af0;
+  }
+  &:valid {
+    border: solid 2px #2cb67d;
+  }
 }
 
 #message {
@@ -88,41 +105,13 @@
   outline: none;
   resize: none;
   transition: 350ms;
+  &:focus {
+    border: solid 2px #7f5af0;
+  }
+  &:valid {
+    border: solid 2px #2cb67d;
+  }
 }
-
-#name:focus {
-  border: solid 2px #7f5af0;
-}
-#mail:focus {
-  border: solid 2px #7f5af0;
-}
-#phone:focus {
-  border: solid 2px #7f5af0;
-}
-#message:focus {
-  border: solid 2px #7f5af0;
-}
-
-
-#name:valid {
-  border: solid 2px #2cb67d;
-}
-#mail:valid {
-  border: solid 2px #2cb67d;
-}
-#phone:valid {
-  border: solid 2px #2cb67d;
-}
-#message:valid {
-  border: solid 2px #2cb67d;
-}
-
-.form:valid{
-  border: solid 2px #2cb67d;
-}
-
-
-
 
 #btn_submit {
   max-width: 67.85px;
@@ -150,11 +139,11 @@
   border-color: #7f5af0;
 }
 
-@media (max-width: 912px){
-  .section__contactme{
-    width:100%;
-  }
-  .form{
+@media (max-width: 912px) {
+  .contactme {
     width: 100%;
+    &__form {
+      width: 100%;
+    }
   }
 }
