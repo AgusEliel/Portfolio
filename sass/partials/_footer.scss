@@ -1,15 +1,17 @@
 /* FOOTER */
 .footer {
     display: flex;
+    height: 230px;
+    width: 100%;
     text-align: center;
     justify-content: center;
-    height: 230px;
     background-color: #ffebd4;
     flex-direction: column;
     font-size: 30px;
     font-weight: 500;
     cursor: default;
     color: #131313;
+    overflow: hidden;
   }
   
   .footer__title {

@@ -22,9 +22,19 @@
 
 .contentProjects__wrap {
   color: #ffebd4;
-  transition: 350ms;
   justify-content: left;
   &:hover {
     border-bottom: solid 1px #ffebd4;
   }
 }
+
+@media (max-width: 480px){
+  .contentProjects__text{
+    margin: auto;
+    font-size: 10vw;
+    &__title{
+      font-size:15vw ;
+    }
+  }
+}
+
