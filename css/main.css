@@ -72,7 +72,8 @@ ul {
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
   border-bottom: 1px solid #ffebd4;
-  border-width: 2px; }
+  border-width: 2px;
+  z-index: 1; }
 
 .header__logo {
   display: flex;
