@@ -24,15 +24,8 @@ body::-webkit-scrollbar-thumb:hover {
 
 @font-face {
   font-family: "Aguselielstudiofont";
-  src: url(../font/Aguselielstudiofont.ttf) format("truetype"); }
-
-@font-face {
-  font-family: "IskryRegular";
-  src: url(../font/Iskry-Regular.otf); }
-
-@font-face {
-  font-family: "IskryBold";
-  src: url(../font/Iskry-Bold.otf); }
+  src: url(../font/Aguselielstudiofont.ttf) format("truetype");
+  font-display: "Aguselielstudiofont"; }
 
 body {
   font-family: "Roboto", "Playfair Display", serif, "Aguselielstudiofont"; }
@@ -78,8 +71,9 @@ ul {
 
 .header__logo {
   display: flex;
-  height: 35px;
-  transition: 350ms; }
+  transition: 350ms;
+  width: 72.85px;
+  height: 35px; }
 
 .header__logo:hover {
   transform: scale(0.85); }
@@ -588,88 +582,49 @@ ul {
     grid-column: 1/2;
     grid-row: 1/2;
     transition: 350ms; }
-  .art .image2 {
-    width: 100%;
-    object-fit: contain;
-    grid-column: 2/3;
-    grid-row: 1/2;
-    transition: 350ms; }
-  .art .image3 {
-    width: 100%;
-    object-fit: contain;
-    grid-column: 3/4;
-    grid-row: 1/2;
-    transition: 350ms; }
-  .art .image4 {
+  .art .image2, .art .image3, .art .image4, .art .image5, .art .image6, .art .image7, .art .image8, .art .image9, .art .image10, .art .image11, .art .image12, .art .image13, .art .image14, .art .image15 {
     width: 100%;
     object-fit: contain;
     transition: 350ms;
+    grid-column: 2/3;
+    grid-row: 1/2; }
+  .art .image3 {
+    grid-column: 3/4;
+    grid-row: 1/2; }
+  .art .image4 {
     grid-column: 1/2;
     grid-row: 2/3; }
   .art .image5 {
-    width: 100%;
-    object-fit: contain;
-    transition: 350ms;
     grid-column: 2/3;
     grid-row: 2/3; }
   .art .image6 {
-    width: 100%;
-    object-fit: contain;
-    transition: 350ms;
     grid-column: 3/4;
     grid-row: 2/3; }
   .art .image7 {
-    width: 100%;
-    object-fit: contain;
-    transition: 350ms;
     grid-column: 1/2;
     grid-row: 3/4; }
   .art .image8 {
-    width: 100%;
-    object-fit: contain;
-    transition: 350ms;
     grid-column: 2/3;
     grid-row: 3/4; }
   .art .image9 {
-    width: 100%;
-    object-fit: contain;
-    transition: 350ms;
     grid-column: 3/4;
     grid-row: 3/4; }
   .art .image10 {
-    width: 100%;
-    object-fit: contain;
-    transition: 350ms;
     grid-column: 1/2;
     grid-row: 4/5; }
   .art .image11 {
-    width: 100%;
-    object-fit: contain;
-    transition: 350ms;
     grid-column: 2/3;
     grid-row: 4/5; }
   .art .image12 {
-    width: 100%;
-    object-fit: contain;
-    transition: 350ms;
     grid-column: 3/4;
     grid-row: 4/5; }
   .art .image13 {
-    width: 100%;
-    object-fit: contain;
-    transition: 350ms;
     grid-column: 1/2;
     grid-row: 5/6; }
   .art .image14 {
-    width: 100%;
-    object-fit: contain;
-    transition: 350ms;
     grid-column: 2/3;
     grid-row: 5/6; }
   .art .image15 {
-    width: 100%;
-    object-fit: contain;
-    transition: 350ms;
     grid-column: 3/4;
     grid-row: 5/6; }
 
@@ -677,7 +632,7 @@ ul {
   transform: scale(1.05);
   box-shadow: 0 0 0 2px #7f5af0; }
 
-.image2:hover {
+.image2:hover, .art .image3:hover, .art .image4:hover, .art .image5:hover, .art .image6:hover, .art .image7:hover, .art .image8:hover, .art .image9:hover, .art .image10:hover, .art .image11:hover, .art .image12:hover, .art .image13:hover, .art .image14:hover, .art .image15:hover {
   transform: scale(1.05);
   box-shadow: 0 0 0 2px #7f5af0; }
 
@@ -763,7 +718,7 @@ ul {
     height: 100%;
     object-fit: contain;
     transition: 350ms; }
-  .image2 {
+  .image2, .art .image3, .art .image4, .art .image5, .art .image6, .art .image7, .art .image8, .art .image9, .art .image10, .art .image11, .art .image12, .art .image13, .art .image14, .art .image15 {
     width: 100%;
     object-fit: contain;
     transition: 350ms; }
@@ -822,7 +777,7 @@ ul {
   .image1:hover {
     transform: scale(1);
     border: solid #7f5af0 1px; }
-  .image2:hover {
+  .image2:hover, .art .image3:hover, .art .image4:hover, .art .image5:hover, .art .image6:hover, .art .image7:hover, .art .image8:hover, .art .image9:hover, .art .image10:hover, .art .image11:hover, .art .image12:hover, .art .image13:hover, .art .image14:hover, .art .image15:hover {
     transform: scale(1);
     border: solid #7f5af0 1px; }
   .image3:hover {
@@ -925,6 +880,9 @@ ul {
   cursor: default;
   color: #131313;
   overflow: hidden; }
+
+.footer__desc {
+  font-size: 24px; }
 
 .footer__title {
   font-family: "Aguselielstudiofont";

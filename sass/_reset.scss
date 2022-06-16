@@ -14,16 +14,7 @@
   @font-face {
     font-family: "Aguselielstudiofont";
     src: url(../font/Aguselielstudiofont.ttf) format("truetype");
-  }
-  
-  @font-face{
-    font-family: "IskryRegular";
-    src: url(../font/Iskry-Regular.otf);
-  }
-  
-  @font-face{
-    font-family: "IskryBold";
-    src: url(../font/Iskry-Bold.otf);
+    font-display: "Aguselielstudiofont";
   }
   
   body {

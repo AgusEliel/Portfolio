@@ -18,10 +18,15 @@
   overflow: hidden;
 }
 
+@mixin logo($ancho , $alto){
+  width: $ancho;
+  height: $alto;
+}
+
 .header__logo {
   display: flex;
-  height: 35px;
   transition: 350ms;
+  @include logo(72.85px , 35px)
 }
 
 .header__logo:hover{
