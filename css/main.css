@@ -22,6 +22,10 @@ body::-webkit-scrollbar-thumb:hover {
   background: #7f5af0;
   color: #ffebd4; }
 
+img::selection {
+  background: none;
+  color: none; }
+
 @font-face {
   font-family: "Aguselielstudiofont";
   src: url(../font/Aguselielstudiofont.ttf) format("truetype");
@@ -79,19 +83,18 @@ ul {
   transform: scale(0.85); }
 
 .header__nav {
-  width: 300px;
+  width: 370px;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  font-style: italic; }
 
 .header__navlist {
   text-decoration: none;
   color: #fff;
   font-weight: 600;
-  transition: 350ms;
-  letter-spacing: 2.5px; }
+  transition: 350ms; }
 
 .header__navlist__contactme {
-  font-weight: 700;
   border-radius: 24px;
   margin-top: 20px;
   padding: 10px 10px;
@@ -132,7 +135,7 @@ ul {
 /* HOME */
 .content1 {
   display: flex;
-  background: linear-gradient(0deg, #131313 0%, rgba(19, 19, 19, 0.25) 100%), url(../images/background.jpg);
+  background: linear-gradient(0deg, #131313 0%, rgba(19, 19, 19, 0.25) 100%), url(../images/fondo.gif);
   background-position: center;
   background-size: cover; }
   .content1__bloque1 {
@@ -475,13 +478,14 @@ ul {
   font-weight: 700;
   border-radius: 24px;
   margin-top: 20px;
-  padding: 10px 10px;
+  padding: 10px;
   text-decoration: none;
   background: #131313;
   border-style: solid;
   border-color: #ffebd4;
   transition: 350ms;
-  border-width: thin; }
+  border-width: thin;
+  text-align: center; }
 
 #btn_submit:active {
   transform: scale(0.95); }
@@ -522,9 +526,10 @@ ul {
     font-weight: 400; }
     .contentProjects__text__title {
       font-style: italic;
+      color: #7f5af0;
+      letter-spacing: 0.1px;
       font-size: 5rem;
-      font-weight: 500;
-      color: #7f5af0; }
+      font-weight: 600; }
 
 .contentProjects__wrap {
   color: #ffebd4;

@@ -124,13 +124,14 @@ $formulario:(
   font-weight: 700;
   border-radius: 24px;
   margin-top: 20px;
-  padding: 10px 10px;
+  padding: 10px;
   text-decoration: none;
   background: #131313;
   border-style: solid;
   border-color: #ffebd4;
   transition: 350ms;
   border-width: thin;
+  text-align: center;
 }
 
 #btn_submit:active {

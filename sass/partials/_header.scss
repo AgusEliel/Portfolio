@@ -34,9 +34,10 @@
 }
 
 .header__nav {
-  width: 300px;
+  width: 370px;
   display: flex;
   justify-content: space-between;
+  font-style: italic;
 }
 
 .header__navlist {
@@ -44,11 +45,9 @@
   color: #fff;
   font-weight: 600;
   transition: 350ms;
-  letter-spacing: 2.5px;
 }
 
 .header__navlist__contactme {
-  font-weight: 700;
   border-radius: 24px;
   margin-top: 20px;
   padding: 10px 10px;

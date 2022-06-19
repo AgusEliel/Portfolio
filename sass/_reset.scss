@@ -9,6 +9,11 @@
     background: $aeViolet;
     color: $aeWhite;
   }
+
+  img::selection{
+    background: none;
+    color: none;
+  }
   
   
   @font-face {
