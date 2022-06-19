@@ -3,33 +3,32 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-  }
-  
-  *::selection {
+}
+
+*::selection {
     background: $aeViolet;
     color: $aeWhite;
-  }
+}
 
-  img::selection{
+img::selection {
     background: none;
     color: none;
-  }
-  
-  
-  @font-face {
+}
+
+@font-face {
     font-family: "Aguselielstudiofont";
     src: url(../font/Aguselielstudiofont.ttf) format("truetype");
     font-display: "Aguselielstudiofont";
-  }
-  
-  body {
+}
+
+body {
     font-family: "Roboto", "Playfair Display", serif, "Aguselielstudiofont";
-  }
-  html {
+}
+html {
     scroll-behavior: smooth;
-  }
-  
-  .noise::before {
+}
+
+.noise::before {
     position: fixed;
     top: 0;
     left: 0;
@@ -40,12 +39,12 @@
     z-index: 1000;
     pointer-events: none;
     background: url(../images/noise.gif);
-  }
-  
-  a {
-    text-decoration: none;
-  }
+}
 
-  ul{
+a {
+    text-decoration: none;
+}
+
+ul {
     list-style: none;
-  }
+}

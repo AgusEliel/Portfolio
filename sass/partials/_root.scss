@@ -2,19 +2,19 @@
 $aeViolet: #7f5af0;
 $aeBlack: #131313;
 $aeWhite: #ffebd4;
-$aeGreen: #2CB67D;
-$aeRed: #EA392C;
+$aeGreen: #2cb67d;
+$aeRed: #ea392c;
 
 /* scrollbar */
 body::-webkit-scrollbar {
     width: 0.7rem;
-  }
-  body::-webkit-scrollbar-track {
+}
+body::-webkit-scrollbar-track {
     background: #131313;
-  }
-  body::-webkit-scrollbar-thumb {
+}
+body::-webkit-scrollbar-thumb {
     background: #ffebd4;
-  }
-  body::-webkit-scrollbar-thumb:hover {
+}
+body::-webkit-scrollbar-thumb:hover {
     background: #7f5af0;
-  }
+}

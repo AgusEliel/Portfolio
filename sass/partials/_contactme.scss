@@ -1,168 +1,168 @@
 /* CONTACT ME */
 
 .contactme {
-  display: flex;
-  width: 100%;
-  height: 100vh;
-  background-color: #131313;
-  color: #ffebd4;
-  padding: 50px;
-  align-items: center;
-  justify-content: center;
-  &__form {
     display: flex;
-    flex-direction: column;
-    width: 50vw;
+    width: 100%;
+    height: 100vh;
+    background-color: #131313;
+    color: #ffebd4;
+    padding: 50px;
     align-items: center;
-    align-content: center;
-    justify-items: center;
     justify-content: center;
-    padding: 30px;
-    border: solid 2px #ffebd4;
-    transition: 500ms;
-    &__title {
-      font-size: 2.5rem;
-      font-weight: 400;
+    &__form {
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        justify-content: center;
+        padding: 30px;
+        border: solid 2px #ffebd4;
+        transition: 500ms;
+        &__title {
+            font-size: 2.5rem;
+            font-weight: 400;
+        }
+        &:valid {
+            border: solid 2px #2cb67d;
+        }
     }
-    &:valid {
-      border: solid 2px #2cb67d;
-    }
-  }
 }
 
-$formulario:(
-  colordeboder: solid 2px #ffebd4,
+$formulario: (
+    colordeboder: solid 2px #ffebd4,
 );
 
 #name {
-  width: 100%;
-  height: 40px;
-  color: #ffebd4;
-  border-radius: 8px;
-  border: map-get($formulario , colordeboder );
-  background-color: #131313;
-  padding: 10px;
-  margin: 10px;
-  font-size: 1.1rem;
-  font-weight: 400;
-  outline: none;
-  transition: 350ms;
-  &:focus {
-    border: solid 2px #7f5af0;
-  }
-  &:valid {
-    border: solid 2px #2cb67d;
-  }
+    width: 100%;
+    height: 40px;
+    color: #ffebd4;
+    border-radius: 8px;
+    border: map-get($formulario, colordeboder);
+    background-color: #131313;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    outline: none;
+    transition: 350ms;
+    &:focus {
+        border: solid 2px #7f5af0;
+    }
+    &:valid {
+        border: solid 2px #2cb67d;
+    }
 }
 #mail {
-  width: 100%;
-  height: 40px;
-  color: #ffebd4;
-  border-radius: 8px;
-  border: map-get($formulario , colordeboder );
-  background-color: #131313;
-  padding: 10px;
-  margin: 10px;
-  font-size: 1.1rem;
-  font-weight: 400;
-  outline: none;
-  transition: 350ms;
-  &:focus {
-    border: solid 2px #7f5af0;
-  }
-  &:valid {
-    border: solid 2px #2cb67d;
-  }
+    width: 100%;
+    height: 40px;
+    color: #ffebd4;
+    border-radius: 8px;
+    border: map-get($formulario, colordeboder);
+    background-color: #131313;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    outline: none;
+    transition: 350ms;
+    &:focus {
+        border: solid 2px #7f5af0;
+    }
+    &:valid {
+        border: solid 2px #2cb67d;
+    }
 }
 #phone {
-  width: 100%;
-  height: 40px;
-  color: #ffebd4;
-  border-radius: 8px;
-  border: map-get($formulario , colordeboder );
-  background-color: #131313;
-  padding: 10px;
-  margin: 10px;
-  font-size: 1.1rem;
-  font-weight: 400;
-  outline: none;
-  transition: 350ms;
-  &:focus {
-    border: solid 2px #7f5af0;
-  }
-  &:valid {
-    border: solid 2px #2cb67d;
-  }
+    width: 100%;
+    height: 40px;
+    color: #ffebd4;
+    border-radius: 8px;
+    border: map-get($formulario, colordeboder);
+    background-color: #131313;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    outline: none;
+    transition: 350ms;
+    &:focus {
+        border: solid 2px #7f5af0;
+    }
+    &:valid {
+        border: solid 2px #2cb67d;
+    }
 }
 
 #message {
-  width: 100%;
-  height: 5rem;
-  color: #ffebd4;
-  border-radius: 8px;
-  border: map-get($formulario , colordeboder );
-  background-color: #131313;
-  padding: 10px;
-  margin: 10px;
-  font-size: 1.1rem;
-  font-weight: 400;
-  outline: none;
-  resize: none;
-  transition: 350ms;
-  overflow: hidden;
-  &:focus {
-    border: solid 2px #7f5af0;
-  }
-  &:valid {
-    border: solid 2px #2cb67d;
-  }
+    width: 100%;
+    height: 5rem;
+    color: #ffebd4;
+    border-radius: 8px;
+    border: map-get($formulario, colordeboder);
+    background-color: #131313;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    outline: none;
+    resize: none;
+    transition: 350ms;
+    overflow: hidden;
+    &:focus {
+        border: solid 2px #7f5af0;
+    }
+    &:valid {
+        border: solid 2px #2cb67d;
+    }
 }
 
 #btn_submit {
-  max-width: 67.85px;
-  color: #ffebd4;
-  font-weight: 700;
-  border-radius: 24px;
-  margin-top: 20px;
-  padding: 10px;
-  text-decoration: none;
-  background: #131313;
-  border-style: solid;
-  border-color: #ffebd4;
-  transition: 350ms;
-  border-width: thin;
-  text-align: center;
+    max-width: 67.85px;
+    color: #ffebd4;
+    font-weight: 700;
+    border-radius: 24px;
+    margin-top: 20px;
+    padding: 10px;
+    text-decoration: none;
+    background: #131313;
+    border-style: solid;
+    border-color: #ffebd4;
+    transition: 350ms;
+    border-width: thin;
+    text-align: center;
 }
 
 #btn_submit:active {
-  transform: scale(0.95);
+    transform: scale(0.95);
 }
 
 #btn_submit:hover {
-  cursor: pointer;
-  border-style: solid;
-  background: #7f5af0;
-  border-color: #7f5af0;
+    cursor: pointer;
+    border-style: solid;
+    background: #7f5af0;
+    border-color: #7f5af0;
 }
 
 @media (max-width: 912px) {
-  .contactme {
-    width: 100%;
-    &__form {
-      width: 100%;
+    .contactme {
+        width: 100%;
+        &__form {
+            width: 100%;
+        }
     }
-  }
 }
 
 @media (max-width: 480px) {
-  .contactme {
-    width: 100%;
-    padding: 5px;
-    &__form {
-      width: 100%;
-      &__title{
-        font-size: 9vw;
-      }
+    .contactme {
+        width: 100%;
+        padding: 5px;
+        &__form {
+            width: 100%;
+            &__title {
+                font-size: 9vw;
+            }
+        }
     }
-  }
 }

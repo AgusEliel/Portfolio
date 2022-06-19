@@ -12,42 +12,42 @@
     cursor: default;
     color: #131313;
     overflow: hidden;
-  }
+}
 
-  .footer__desc{
+.footer__desc {
     font-size: 24px;
-  }
-  
-  .footer__title {
+}
+
+.footer__title {
     font-family: "Aguselielstudiofont";
     font-size: 4rem;
     padding: 10px;
     color: #131313;
-  }
-  
-  .footer__img {
+}
+
+.footer__img {
     padding-top: 20px;
     width: 500px;
-  }
-  
-  .footer__icons {
+}
+
+.footer__icons {
     color: #131313;
     text-decoration: none;
     transition: 350ms;
     font-size: 1.15em;
-  }
-  
-  .footer__icons:hover {
+}
+
+.footer__icons:hover {
     transform: scale(1.1);
     color: #7f5af0;
-  }
-  .footer__text {
+}
+.footer__text {
     padding-top: 15px;
     font-size: 18px;
-  }
-  
-  @media (max-width: 912px) {
+}
+
+@media (max-width: 912px) {
     .footer__title {
-      font-size: 10vw;
+        font-size: 10vw;
     }
-  }
+}
