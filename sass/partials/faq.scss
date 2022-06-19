@@ -1,7 +1,7 @@
 .contentmain {
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-color: $aeBlack;
     flex-direction: column;
     align-items: center;
@@ -26,6 +26,7 @@
         width: 80%;
         flex-direction: column;
         transition: 350ms;
+        margin-bottom: 100px;
         &__container {
             width: 100%;
             color: $aeWhite;
