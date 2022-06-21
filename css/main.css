@@ -32,7 +32,7 @@ img::selection {
   font-display: "Aguselielstudiofont"; }
 
 body {
-  font-family: "Roboto", "Playfair Display", serif, "Aguselielstudiofont"; }
+  font-family: "Roboto", "Playfair Display", serif, "Aguselielstudiofont", "Font Awesome 5 Free"; }
 
 html {
   scroll-behavior: smooth; }
@@ -298,8 +298,7 @@ ul {
       font-size: 10vw; }
     .skills1__textbox__p {
       width: 80%;
-      margin: auto;
-      font-size: 2.5; }
+      margin: auto; }
     .skills1__technologies {
       justify-content: center;
       flex-direction: row;
@@ -525,10 +524,9 @@ ul {
     font-size: 50px;
     font-weight: 400; }
     .contentProjects__text__title {
-      font-style: italic;
       color: #7f5af0;
       letter-spacing: 0.1px;
-      font-size: 5rem;
+      font-size: 100px;
       font-weight: 600; }
 
 .contentProjects__wrap {
@@ -906,17 +904,43 @@ ul {
       cursor: pointer;
       padding: 20px;
       border-bottom: solid 1px #ffebd4;
-      transition: 350ms; }
+      transition: all 0.4s ease-in-out;
+      max-height: 80px;
+      overflow: hidden; }
+      .contentmain__questionbox__container::selection {
+        background: none;
+        color: none; }
       .contentmain__questionbox__container:hover {
         background-color: #1f1f1f; }
     .contentmain__questionbox__question {
-      font-size: 2rem; }
+      display: flex;
+      font-size: 25px;
+      justify-content: space-between;
+      font-family: "Roboto"; }
       .contentmain__questionbox__question::selection {
         background: none;
         color: none; }
     .contentmain__questionbox__answer {
-      font-size: 1.3rem;
-      cursor: text; }
+      font-family: "Roboto";
+      font-size: 20px;
+      cursor: text;
+      margin-top: 10px;
+      color: #ffebd4; }
+
+@media (max-width: 912px) {
+  .contentmain__titlebox__title {
+    font-size: 10vw; } }
+
+details[open].contentmain__questionbox__container {
+  background-color: rgba(0, 0, 0, 0.1);
+  max-height: 500px; }
+
+details.contentmain__questionbox__container summary {
+  outline: none;
+  cursor: pointer; }
+
+details[open].contentmain__questionbox__container summary {
+  padding-bottom: 1em; }
 
 /* FOOTER */
 .footer {
