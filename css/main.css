@@ -905,7 +905,6 @@ ul {
       padding: 20px;
       border-bottom: solid 1px #ffebd4;
       transition: all 0.4s ease-in-out;
-      max-height: 80px;
       overflow: hidden; }
       .contentmain__questionbox__container::selection {
         background: none;
@@ -929,18 +928,11 @@ ul {
 
 @media (max-width: 912px) {
   .contentmain__titlebox__title {
-    font-size: 10vw; } }
-
-details[open].contentmain__questionbox__container {
-  background-color: rgba(0, 0, 0, 0.1);
-  max-height: 500px; }
-
-details.contentmain__questionbox__container summary {
-  outline: none;
-  cursor: pointer; }
-
-details[open].contentmain__questionbox__container summary {
-  padding-bottom: 1em; }
+    font-size: 10vw; }
+  .contentmain__questionbox__container {
+    padding: 10px; }
+  .contentmain__questionbox__question {
+    margin: auto; } }
 
 /* FOOTER */
 .footer {
