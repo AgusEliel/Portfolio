@@ -1,5 +1,6 @@
 /* COLORS */
 /* scrollbar */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 body::-webkit-scrollbar {
   width: 0.7rem; }
 
@@ -7,7 +8,7 @@ body::-webkit-scrollbar-track {
   background: #131313; }
 
 body::-webkit-scrollbar-thumb {
-  background: #ffebd4; }
+  background: #f1efed; }
 
 body::-webkit-scrollbar-thumb:hover {
   background: #7f5af0; }
@@ -32,7 +33,7 @@ img::selection {
   font-display: "Aguselielstudiofont"; }
 
 body {
-  font-family: "Roboto", "Playfair Display", serif, "Aguselielstudiofont", "Font Awesome 5 Free"; }
+  font-family: "Josefin Sans", serif, "Aguselielstudiofont", "Font Awesome 5 Free"; }
 
 html {
   scroll-behavior: smooth; }
@@ -68,7 +69,7 @@ ul {
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
-  border-bottom: 1px solid #ffebd4;
+  border-bottom: 1px solid #f1efed;
   border-width: 2px;
   z-index: 1;
   overflow: hidden; }
@@ -90,14 +91,14 @@ ul {
 
 .header__navlist {
   text-decoration: none;
-  color: #fff;
+  color: #f1efed;
   font-weight: 600;
   transition: 350ms; }
 
 .header__navlist__contactme {
   border-radius: 24px;
   margin-top: 20px;
-  padding: 10px 10px;
+  padding: 10px 15px 10px 10px;
   text-decoration: none;
   border-style: solid;
   border-width: thin;
@@ -111,7 +112,7 @@ ul {
 
 .header__navlist__contactme:hover {
   border-style: solid;
-  color: #fff;
+  color: #f1efed;
   background: #7f5af0;
   border-color: #7f5af0; }
 
@@ -150,16 +151,17 @@ ul {
       display: flex;
       font-weight: 500;
       font-size: 12vw;
-      color: #ffebd4;
-      font-family: "Playfair Display";
+      color: #f1efed;
+      font-family: "Josefin Sans";
       text-align: left;
       font-style: italic; }
     .content1__bloque1__label {
-      color: #ffebd4;
+      font-family: "josefin sans";
+      color: #f1efed;
       font-size: 25px;
       font-weight: 400; }
     .content1__bloque1__btn {
-      color: #ffebd4;
+      color: #f1efed;
       font-weight: 700;
       border-radius: 24px;
       margin-top: 20px;
@@ -167,7 +169,7 @@ ul {
       text-decoration: none;
       background: none;
       border-style: solid;
-      border-color: #ffebd4;
+      border-color: #f1efed;
       transition: 350ms;
       border-width: thin; }
       .content1__bloque1__btn:active {
@@ -209,19 +211,21 @@ ul {
     margin-bottom: 30px;
     justify-content: center; }
     .content2__bloque2__h2 {
-      color: #ffebd4;
+      color: #f1efed;
       font-weight: bold;
       font-size: 12vh;
-      font-family: "Playfair Display";
-      margin: 20px; }
+      font-family: "josefin sans";
+      margin: 20px;
+      font-style: italic; }
     .content2__bloque2__text {
+      font-family: "Josefin Sans";
       font-size: 2rem;
       width: 80%;
       font-weight: 300;
-      color: #ffebd4;
+      color: #f1efed;
       overflow: hidden; }
     .content2__bloque2__btn {
-      color: #ffebd4;
+      color: #f1efed;
       font-weight: 700;
       border-radius: 24px;
       margin-top: 30px;
@@ -229,7 +233,7 @@ ul {
       text-decoration: none;
       background: #131313;
       border-style: solid;
-      border-color: #ffebd4;
+      border-color: #f1efed;
       transition: 350ms;
       border-width: thin; }
       .content2__bloque2__btn:active {
@@ -264,7 +268,7 @@ ul {
   width: 100%;
   height: 100vh;
   background-color: #131313;
-  color: #ffebd4;
+  color: #f1efed;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -313,7 +317,7 @@ ul {
   display: flex;
   width: 100%;
   height: 100vh;
-  background-color: #ffebd4;
+  background-color: #f1efed;
   color: #131313;
   justify-content: center;
   align-items: center;
@@ -376,7 +380,7 @@ ul {
   width: 100%;
   height: 100vh;
   background-color: #131313;
-  color: #ffebd4;
+  color: #f1efed;
   padding: 50px;
   align-items: center;
   justify-content: center; }
@@ -389,7 +393,7 @@ ul {
     justify-items: center;
     justify-content: center;
     padding: 30px;
-    border: solid 2px #ffebd4;
+    border: solid 2px #f1efed;
     transition: 500ms; }
     .contactme__form__title {
       font-size: 2.5rem;
@@ -400,9 +404,9 @@ ul {
 #name {
   width: 100%;
   height: 40px;
-  color: #ffebd4;
+  color: #f1efed;
   border-radius: 8px;
-  border: solid 2px #ffebd4;
+  border: solid 2px #f1efed;
   background-color: #131313;
   padding: 10px;
   margin: 10px;
@@ -420,7 +424,7 @@ ul {
   height: 40px;
   color: #ffebd4;
   border-radius: 8px;
-  border: solid 2px #ffebd4;
+  border: solid 2px #f1efed;
   background-color: #131313;
   padding: 10px;
   margin: 10px;
@@ -436,9 +440,9 @@ ul {
 #phone {
   width: 100%;
   height: 40px;
-  color: #ffebd4;
+  color: #f1efed;
   border-radius: 8px;
-  border: solid 2px #ffebd4;
+  border: solid 2px #f1efed;
   background-color: #131313;
   padding: 10px;
   margin: 10px;
@@ -454,9 +458,9 @@ ul {
 #message {
   width: 100%;
   height: 5rem;
-  color: #ffebd4;
+  color: #f1efed;
   border-radius: 8px;
-  border: solid 2px #ffebd4;
+  border: solid 2px #f1efed;
   background-color: #131313;
   padding: 10px;
   margin: 10px;
@@ -472,16 +476,16 @@ ul {
     border: solid 2px #2cb67d; }
 
 #btn_submit {
-  max-width: 67.85px;
-  color: #ffebd4;
+  max-width: 70px;
+  color: #f1efed;
   font-weight: 700;
   border-radius: 24px;
   margin-top: 20px;
-  padding: 10px;
+  padding: 12px 17px 13px 9px;
   text-decoration: none;
   background: #131313;
   border-style: solid;
-  border-color: #ffebd4;
+  border-color: #f1efed;
   transition: 350ms;
   border-width: thin;
   text-align: center; }
@@ -530,10 +534,10 @@ ul {
       font-weight: 600; }
 
 .contentProjects__wrap {
-  color: #ffebd4;
+  color: #f1efed;
   justify-content: left; }
   .contentProjects__wrap:hover {
-    border-bottom: solid 1px #ffebd4; }
+    border-bottom: solid 1px #f1efed; }
 
 @media (max-width: 480px) {
   .contentProjects__text {
@@ -575,7 +579,7 @@ ul {
   margin-top: 71px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  border-left: solid 1px #ffebd4;
+  border-left: solid 1px #f1efed;
   gap: 46px;
   padding: 46px; }
   .art .image1 {
@@ -854,7 +858,7 @@ ul {
 .brandcontent {
   display: flex;
   width: 100%;
-  background-color: #ffebd4;
+  background-color: #f1efed;
   justify-content: center;
   flex-direction: column;
   gap: 46px;
@@ -883,14 +887,14 @@ ul {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: #ffebd4;
-    margin-top: 72px; }
+    color: #f1efed;
+    margin-top: 90px; }
     .contentmain__titlebox__title {
       display: flex;
       justify-content: center;
       width: 80%;
       font-size: 100px;
-      border-bottom: solid 1px #ffebd4; }
+      border-bottom: solid 1px #f1efed; }
   .contentmain__questionbox {
     display: flex;
     width: 80%;
@@ -899,11 +903,11 @@ ul {
     margin-bottom: 100px; }
     .contentmain__questionbox__container {
       width: 100%;
-      color: #ffebd4;
+      color: #f1efed;
       text-decoration: none;
       cursor: pointer;
       padding: 20px;
-      border-bottom: solid 1px #ffebd4;
+      border-bottom: solid 1px #f1efed;
       transition: all 0.4s ease-in-out;
       overflow: hidden; }
       .contentmain__questionbox__container::selection {
@@ -914,17 +918,15 @@ ul {
     .contentmain__questionbox__question {
       display: flex;
       font-size: 25px;
-      justify-content: space-between;
-      font-family: "Roboto"; }
+      justify-content: space-between; }
       .contentmain__questionbox__question::selection {
         background: none;
         color: none; }
     .contentmain__questionbox__answer {
-      font-family: "Roboto";
       font-size: 20px;
       cursor: text;
       margin-top: 10px;
-      color: #ffebd4; }
+      color: #f1efed; }
 
 @media (max-width: 912px) {
   .contentmain__titlebox__title {
@@ -941,7 +943,7 @@ ul {
   width: 100%;
   text-align: center;
   justify-content: center;
-  background-color: #ffebd4;
+  background-color: #f1efed;
   flex-direction: column;
   font-size: 30px;
   font-weight: 500;
@@ -995,7 +997,7 @@ ul {
 
 .loadertext {
   font-family: "Aguselielstudiofont";
-  color: #ffebd4;
+  color: #f1efed;
   font-size: 7rem;
   animation: jump 0.7s ease-in infinite;
   -webkit-animation: jump 0.7s ease-in infinite;

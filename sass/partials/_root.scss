@@ -4,6 +4,7 @@ $aeBlack: #131313;
 $aeWhite: #ffebd4;
 $aeGreen: #2cb67d;
 $aeRed: #ea392c;
+$aeGrey: #f1efed;
 
 /* scrollbar */
 body::-webkit-scrollbar {
@@ -13,7 +14,7 @@ body::-webkit-scrollbar-track {
     background: #131313;
 }
 body::-webkit-scrollbar-thumb {
-    background: #ffebd4;
+    background: $aeGrey;
 }
 body::-webkit-scrollbar-thumb:hover {
     background: #7f5af0;

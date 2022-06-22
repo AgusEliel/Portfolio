@@ -12,14 +12,14 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        color: $aeWhite;
-        margin-top: 72px;
+        color: $aeGrey;
+        margin-top: 90px;
         &__title {
             display: flex;
             justify-content: center;
             width: 80%;
             font-size: 100px;
-            border-bottom: solid 1px $aeWhite;
+            border-bottom: solid 1px $aeGrey;
         }
     }
     &__questionbox {
@@ -30,11 +30,11 @@
         margin-bottom: 100px;
         &__container {
             width: 100%;
-            color: $aeWhite;
+            color: $aeGrey;
             text-decoration: none;
             cursor: pointer;
             padding: 20px;
-            border-bottom: solid 1px $aeWhite;
+            border-bottom: solid 1px $aeGrey;
             transition: all 0.4s ease-in-out;
             overflow: hidden;
             &::selection {
@@ -49,18 +49,16 @@
             display: flex;
             font-size: 25px;
             justify-content: space-between;
-            font-family: "Roboto";
             &::selection {
                 background: none;
                 color: none;
             }
         }
         &__answer {
-            font-family: "Roboto";
             font-size: 20px;
             cursor: text;
             margin-top: 10px;
-            color: $aeWhite;
+            color: $aeGrey;
         }
     }
 }

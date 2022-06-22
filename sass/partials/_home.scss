@@ -24,20 +24,21 @@
             display: flex;
             font-weight: 500;
             font-size: 12vw;
-            color: #ffebd4;
-            font-family: "Playfair Display";
+            color: $aeGrey;
+            font-family: "Josefin Sans";
             text-align: left;
             font-style: italic;
         }
 
         &__label {
-            color: #ffebd4;
+            font-family: "josefin sans";
+            color: $aeGrey;
             font-size: 25px;
             font-weight: 400;
         }
 
         &__btn {
-            color: #ffebd4;
+            color: $aeGrey;
             font-weight: 700;
             border-radius: 24px;
             margin-top: 20px;
@@ -45,7 +46,7 @@
             text-decoration: none;
             background: none;
             border-style: solid;
-            border-color: #ffebd4;
+            border-color: $aeGrey;
             transition: 350ms;
             border-width: thin;
 
