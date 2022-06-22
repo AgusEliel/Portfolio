@@ -13,6 +13,10 @@
             content="Portfolio, argentina, desarrollo web, diseño grafico"
         />
         <link rel="stylesheet" href="./css/main.css" />
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -125,7 +129,12 @@
         </header>
         <div class="noise"></div>
         <section class="contactme">
-            <form class="contactme__form" action="" id="form1">
+            <form
+                data-aos="fade-right"
+                class="contactme__form"
+                action=""
+                id="form1"
+            >
                 <h2 class="contactme__form__title">CONTACT ME</h2>
                 <input
                     id="name"
@@ -205,6 +214,10 @@
                     "hidden";
                 document.querySelector(".loadercont").style.opacity = "0";
             };
+        </script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
         </script>
     </body>
 </html>

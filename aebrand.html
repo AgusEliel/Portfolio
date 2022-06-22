@@ -13,6 +13,10 @@
             content="Portfolio, argentina, desarrollo web, diseño grafico"
         />
         <link rel="stylesheet" href="./css/main.css" />
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -125,7 +129,7 @@
         </header>
         <div class="noise"></div>
         <section class="aestudio">
-            <div class="aestudio__list2">
+            <div data-aos="fade-right" class="aestudio__list2">
                 <ul class="aestudio__list2__menu2">
                     <a href="./projects.html">
                         <span class="aestudio__list2__menu2__title"
@@ -147,7 +151,7 @@
                     <li>Coming soon</li>
                 </ul>
             </div>
-            <section class="brandcontent">
+            <section data-aos="fade-right" class="brandcontent">
                 <img
                     class="brandcontent__aeimage"
                     src="./aestudio/Sticker.png"
@@ -219,6 +223,10 @@
                     "hidden";
                 document.querySelector(".loadercont").style.opacity = "0";
             };
+        </script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
         </script>
     </body>
 </html>

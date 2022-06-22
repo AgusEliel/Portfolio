@@ -13,6 +13,10 @@
             content="Portfolio, argentina, desarrollo web, diseño grafico"
         />
         <link rel="stylesheet" href="./css/main.css" />
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -124,7 +128,7 @@
             </nav>
         </header>
         <div class="noise"></div>
-        <section class="contentProjects">
+        <section data-aos="fade-right" class="contentProjects">
             <ul class="contentProjects__text">
                 <span class="contentProjects__text__title">PROJECTS</span>
                 <li>
@@ -181,6 +185,10 @@
                     "hidden";
                 document.querySelector(".loadercont").style.opacity = "0";
             };
+        </script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
         </script>
     </body>
 </html>
