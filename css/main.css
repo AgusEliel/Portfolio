@@ -54,6 +54,24 @@ html {
 a {
   text-decoration: none; }
 
+a {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+img {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
 ul {
   list-style: none; }
 
@@ -96,7 +114,7 @@ nav .mainMenu li a {
   text-transform: uppercase;
   color: white;
   font-size: 16px;
-  transition: 0.2s ease;
+  transition: 350ms;
   font-weight: 600; }
 
 .nav__contactme {
@@ -146,10 +164,12 @@ nav .logo {
 
 @media (max-width: 800px) {
   nav {
-    background-color: #131313;
+    background-color: transparent;
     backdrop-filter: none;
     -webkit-backdrop-filter: none;
-    position: relative; }
+    position: fixed;
+    border-bottom: none;
+    box-shadow: none; }
   nav .mainMenu {
     height: 100vh;
     position: fixed;
@@ -161,18 +181,19 @@ nav .logo {
     justify-content: center;
     align-items: center;
     background: #131313;
-    transition: top 1s ease 0s;
+    transition: 350ms;
     display: none; }
   nav .mainMenu .closeMenu {
     display: block;
     position: absolute;
-    top: 20px;
-    right: 20px; }
+    bottom: 30px; }
   nav .openMenu {
     display: block; }
   .icons i {
     display: inline-block;
     padding: 12px; }
+  .logo__img {
+    display: none; }
   .logo__img2 {
     display: flex;
     transition: 350ms;
