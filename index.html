@@ -108,38 +108,47 @@
             <span class="loadertext">a</span>
             <span class="loadertext">e</span>
         </div>
-        <header class="header">
-            <a href="#">
-                <img
-                    class="header__logo"
-                    src="./images/logowhite.png"
-                    alt="Logo"
-                />
-            </a>
-            <nav class="header__nav">
-                <a href="./skills.html" class="header__navlist">SKILLS</a>
-                <a href="./projects.html" class="header__navlist">PROJECTS</a>
-                <a href="./faq.html" class="header__navlist">FAQ</a>
-                <a href="./contactme.html" class="header__navlist">
-                    <span class="header__navlist__contactme"
-                        >CONTACT ME</span
-                    ></a
-                >
+        <header>
+            <nav>
+                <div class="logo">
+                    <a href="./index.html">
+                        <img
+                            class="logo__img"
+                            alt=""
+                            src="./images/logowhite.png"
+                        />
+                    </a>
+                </div>
+                <div class="openMenu"><i class="fa fa-bars"></i></div>
+                <ul class="mainMenu">
+                    <li>
+                        <a href="./index.html" class="logo__anchor"
+                            ><img
+                                class="logo__img2"
+                                src="./images/logowhite.png"
+                                alt=""
+                        /></a>
+                    </li>
+                    <li><a href="./skills.html">SKILLS</a></li>
+                    <li><a href="./projects.html">PROJECTS</a></li>
+                    <li><a href="./faq.html">FAQ</a></li>
+                    <li>
+                        <a href="./contactme.html"
+                            ><span class="nav__contactme">CONTACT ME</span></a
+                        >
+                    </li>
+                    <div class="closeMenu"><i class="fa fa-times"></i></div>
+                </ul>
             </nav>
         </header>
         <div class="noise"></div>
         <section class="content1" id="content1">
-            <div class="content1__bloque1">
-                <h1 data-aos="fade-right" class="content1__bloque1__title">
-                    AGUS ELIEL
-                </h1>
-                <label data-aos="fade-right" class="content1__bloque1__label"
+            <div data-aos="fade-right" class="content1__bloque1">
+                <h1 class="content1__bloque1__title">AGUS ELIEL</h1>
+                <label class="content1__bloque1__label"
                     >GRAPHIC DESIGNER & FRONTEND DEV</label
                 >
-                <a
-                    data-aos="fade-right"
-                    class="content1__bloque1__btn"
-                    href="#content2"
+                <a class="content1__bloque1__btn" href="#content2"
                     >MORE ABOUT ME</a
                 >
             </div>
@@ -205,6 +214,30 @@
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
             AOS.init();
+        </script>
+        <script>
+            const mainMenu = document.querySelector(".mainMenu");
+            const closeMenu = document.querySelector(".closeMenu");
+            const openMenu = document.querySelector(".openMenu");
+            const menu_items = document.querySelectorAll("nav .mainMenu li a");
+
+            openMenu.addEventListener("click", show);
+            closeMenu.addEventListener("click", close);
+
+            // close menu when you click on a menu item
+            menu_items.forEach((item) => {
+                item.addEventListener("click", function () {
+                    close();
+                });
+            });
+
+            function show() {
+                mainMenu.style.display = "flex";
+                mainMenu.style.top = "0";
+            }
+            function close() {
+                mainMenu.style.top = "-100%";
+            }
         </script>
     </body>
 </html>
