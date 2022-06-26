@@ -351,13 +351,13 @@ nav .logo {
     font-weight: 400;
     font-size: 20px;
     text-align: center;
-    justify-content: center;
-    word-spacing: 7px; }
+    justify-content: center; }
     .skills1__textbox__title {
       font-size: 100px;
       font-weight: 600;
       text-align: center; }
     .skills1__textbox__p {
+      word-spacing: 7px;
       width: 600px;
       margin: auto; }
   .skills1__technologies {
@@ -404,13 +404,13 @@ nav .logo {
     font-weight: 400;
     font-size: 20px;
     text-align: center;
-    justify-content: center;
-    word-spacing: 7px; }
+    justify-content: center; }
     .skills2__textbox__title {
       font-size: 100px;
       font-weight: 600;
       text-align: center; }
     .skills2__textbox__p {
+      word-spacing: 7px;
       width: 600px;
       margin: auto; }
   .skills2__tools {
@@ -601,8 +601,9 @@ nav .logo {
   .contentProjects__text {
     color: #ffebd412;
     text-decoration: none;
-    font-size: 50px;
-    font-weight: 400; }
+    font-size: 40px;
+    font-weight: 400;
+    overflow: hidden; }
     .contentProjects__text__title {
       color: #7f5af0;
       letter-spacing: 0.1px;
@@ -615,7 +616,7 @@ nav .logo {
   .contentProjects__wrap:hover {
     border-bottom: solid 1px #f1efed; }
 
-@media (max-width: 480px) {
+@media (max-width: 490px) {
   .contentProjects__text {
     margin: auto;
     font-size: 10vw; }
@@ -781,9 +782,10 @@ nav .logo {
     padding: 1rem; }
   .gallery__list {
     margin: 0px;
-    padding: 1rem; } }
+    padding: 1rem;
+    margin-top: 100px; } }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .gallery {
     grid-template-columns: 1fr; }
     .gallery__list {
@@ -905,7 +907,7 @@ nav .logo {
 
 .aestudio {
   display: grid;
-  background-color: #131313;
+  background-color: #f1efed;
   width: 100%;
   grid-template-columns: 0.3fr 3fr; }
   .aestudio__list2 {
@@ -943,7 +945,7 @@ nav .logo {
   .brandcontent__aeimage {
     width: 100%; }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .aestudio {
     display: flex; }
     .aestudio__list2 {

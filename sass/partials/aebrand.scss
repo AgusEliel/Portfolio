@@ -1,6 +1,6 @@
 .aestudio {
     display: grid;
-    background-color: #131313;
+    background-color: $aeGrey;
     width: 100%;
     grid-template-columns: 0.3fr 3fr;
     &__list2 {
@@ -44,7 +44,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .aestudio {
         display: flex;
         &__list2 {
