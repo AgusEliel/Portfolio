@@ -351,7 +351,8 @@ nav .logo {
     font-weight: 400;
     font-size: 20px;
     text-align: center;
-    justify-content: center; }
+    justify-content: center;
+    word-spacing: 7px; }
     .skills1__textbox__title {
       font-size: 100px;
       font-weight: 600;
@@ -373,13 +374,14 @@ nav .logo {
     .skills1__textbox__title {
       font-size: 10vw; }
     .skills1__textbox__p {
-      width: 80%;
-      margin: auto; }
+      width: 95%;
+      margin: auto;
+      margin-top: 15px; }
     .skills1__technologies {
       justify-content: center;
       flex-direction: row;
       margin: 30px;
-      width: 100%;
+      width: 95%;
       font-size: 10vw;
       overflow: hidden;
       flex-wrap: wrap; } }
@@ -402,7 +404,8 @@ nav .logo {
     font-weight: 400;
     font-size: 20px;
     text-align: center;
-    justify-content: center; }
+    justify-content: center;
+    word-spacing: 7px; }
     .skills2__textbox__title {
       font-size: 100px;
       font-weight: 600;
@@ -425,16 +428,17 @@ nav .logo {
     text-align: center;
     padding: 10px; }
     .skills2__textbox__p {
-      width: 80%;
+      width: 95%;
       margin: auto;
-      font-size: 2.5; }
+      font-size: 2.5;
+      margin-top: 15px; }
     .skills2__textbox__title {
       font-size: 10vw; }
     .skills2__tools {
       flex-direction: row;
       justify-content: center;
       object-fit: cover;
-      width: 100%; }
+      width: 95%; }
       .skills2__tools__img {
         height: 10vw; } }
 

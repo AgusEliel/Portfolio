@@ -17,6 +17,7 @@
         font-size: 20px;
         text-align: center;
         justify-content: center;
+        word-spacing: 7px;
 
         &__title {
             font-size: 100px;
@@ -47,15 +48,16 @@
                 font-size: 10vw;
             }
             &__p {
-                width: 80%;
+                width: 95%;
                 margin: auto;
+                margin-top: 15px;
             }
         }
         &__technologies {
             justify-content: center;
             flex-direction: row;
             margin: 30px;
-            width: 100%;
+            width: 95%;
             font-size: 10vw;
             overflow: hidden;
             flex-wrap: wrap;
@@ -83,6 +85,7 @@
         font-size: 20px;
         text-align: center;
         justify-content: center;
+        word-spacing: 7px;
         &__title {
             font-size: 100px;
             font-weight: 600;
@@ -113,9 +116,10 @@
         padding: 10px;
         &__textbox {
             &__p {
-                width: 80%;
+                width: 95%;
                 margin: auto;
                 font-size: 2.5;
+                margin-top: 15px;
             }
             &__title {
                 font-size: 10vw;
@@ -125,7 +129,7 @@
             flex-direction: row;
             justify-content: center;
             object-fit: cover;
-            width: 100%;
+            width: 95%;
             &__img {
                 height: 10vw;
             }
