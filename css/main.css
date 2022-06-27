@@ -986,7 +986,7 @@ nav .logo {
       cursor: pointer;
       padding: 20px;
       border-bottom: solid 1px #f1efed;
-      transition: all 0.4s ease-in-out;
+      transition: 350ms;
       overflow: hidden; }
       .contentmain__questionbox__container::selection {
         background: none;

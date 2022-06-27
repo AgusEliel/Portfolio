@@ -35,7 +35,7 @@
             cursor: pointer;
             padding: 20px;
             border-bottom: solid 1px $aeGrey;
-            transition: all 0.4s ease-in-out;
+            transition: 350ms;
             overflow: hidden;
             &::selection {
                 background: none;

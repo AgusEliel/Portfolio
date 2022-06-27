@@ -152,83 +152,41 @@
                         HOW MUCH DOES YOUR JOB COST?
                     </summary>
                     <p class="contentmain__questionbox__answer">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Consequuntur, et repellendus, odio, laborum rerum
-                        quisquam aliquid dignissimos voluptatem distinctio
-                        explicabo aliquam repudiandae non harum minus itaque.
-                        Ullam adipisci distinctio natus?
+                        It costs what you want it to cost, if you want a great
+                        job, it will cost a great deal.
                     </p>
                 </details>
                 <details class="contentmain__questionbox__container">
                     <summary class="contentmain__questionbox__question">
-                        HOW MUCH DOES YOUR JOB COST?
+                        ARE YOU A GRAPHIC DESIGNER OR WEB DEVELOPER?
                     </summary>
                     <p class="contentmain__questionbox__answer">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Magnam incidunt dolore est, optio quam dolores
-                        nulla deserunt necessitatibus cupiditate unde dolor
-                        possimus laudantium dolorem qui veritatis ut
-                        consequuntur debitis maxime?
+                        I love graphic design and I am currently studying web
+                        development.
                     </p>
                 </details>
                 <details class="contentmain__questionbox__container">
                     <summary class="contentmain__questionbox__question">
-                        HOW MUCH DOES YOUR JOB COST?
+                        WHY DOES YOUR STUDIO BEAR YOUR NAME?
                     </summary>
                     <p class="contentmain__questionbox__answer">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Magnam incidunt dolore est, optio quam dolores
-                        nulla deserunt necessitatibus cupiditate unde dolor
-                        possimus laudantium dolorem qui veritatis ut
-                        consequuntur debitis maxime?
+                        Just because.
                     </p>
                 </details>
                 <details class="contentmain__questionbox__container">
                     <summary class="contentmain__questionbox__question">
-                        HOW MUCH DOES YOUR JOB COST?
+                        WHERE ARE YOU FROM?
                     </summary>
                     <p class="contentmain__questionbox__answer">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Magnam incidunt dolore est, optio quam dolores
-                        nulla deserunt necessitatibus cupiditate unde dolor
-                        possimus laudantium dolorem qui veritatis ut
-                        consequuntur debitis maxime?
+                        I am from Argentina.
                     </p>
                 </details>
                 <details class="contentmain__questionbox__container">
                     <summary class="contentmain__questionbox__question">
-                        HOW MUCH DOES YOUR JOB COST?
+                        WHICH ARE YOUR FUTURE PLANS?
                     </summary>
                     <p class="contentmain__questionbox__answer">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Magnam incidunt dolore est, optio quam dolores
-                        nulla deserunt necessitatibus cupiditate unde dolor
-                        possimus laudantium dolorem qui veritatis ut
-                        consequuntur debitis maxime?
-                    </p>
-                </details>
-                <details class="contentmain__questionbox__container">
-                    <summary class="contentmain__questionbox__question">
-                        HOW MUCH DOES YOUR JOB COST?
-                    </summary>
-                    <p class="contentmain__questionbox__answer">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Magnam incidunt dolore est, optio quam dolores
-                        nulla deserunt necessitatibus cupiditate unde dolor
-                        possimus laudantium dolorem qui veritatis ut
-                        consequuntur debitis maxime?
-                    </p>
-                </details>
-                <details class="contentmain__questionbox__container">
-                    <summary class="contentmain__questionbox__question">
-                        HOW MUCH DOES YOUR JOB COST?
-                    </summary>
-                    <p class="contentmain__questionbox__answer">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Magnam incidunt dolore est, optio quam dolores
-                        nulla deserunt necessitatibus cupiditate unde dolor
-                        possimus laudantium dolorem qui veritatis ut
-                        consequuntur debitis maxime?
+                        I would also like to study UX/UI design.
                     </p>
                 </details>
             </div>
@@ -305,6 +263,18 @@
                 document.getElementsByTagName("html")[0].style.overflow =
                     "scroll";
             }
+        </script>
+        <script>
+            const details = document.querySelectorAll("details");
+            details.forEach((targetDetail) => {
+                targetDetail.addEventListener("click", () => {
+                    details.forEach((detail) => {
+                        if (detail !== targetDetail) {
+                            detail.removeAttribute("open");
+                        }
+                    });
+                });
+            });
         </script>
     </body>
 </html>
