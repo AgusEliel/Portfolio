@@ -919,7 +919,7 @@ nav .logo {
 
 .aestudio {
   display: grid;
-  background-color: #ffebd4;
+  background-color: #131313;
   width: 100%;
   grid-template-columns: 0.3fr 3fr; }
   .aestudio__list2 {
