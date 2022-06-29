@@ -6,6 +6,7 @@
     background-color: #131313;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
     &__text {
         color: #ffebd412;
@@ -27,6 +28,13 @@
     justify-content: left;
     &:hover {
         border-bottom: solid 1px $aeGrey;
+    }
+    &__alert {
+        display: block;
+        position: absolute;
+        color: $aeGrey;
+        font-size: 15px;
+        bottom: 170px;
     }
 }
 

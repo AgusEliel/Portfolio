@@ -147,6 +147,7 @@ nav .openMenu {
 nav .mainMenu .closeMenu,
 .icons i {
   font-size: 2rem;
+  margin: 20px;
   display: none;
   cursor: pointer; }
 
@@ -186,8 +187,10 @@ nav .logo {
   nav .mainMenu .closeMenu {
     display: block;
     position: absolute;
-    bottom: 30px;
-    margin-bottom: 80px; }
+    top: 20px;
+    right: 20px;
+    margin: 0px;
+    margin-right: 15px; }
   nav .openMenu {
     display: block;
     margin-right: 0px; }
@@ -370,7 +373,9 @@ nav .logo {
 @media (max-width: 912px) {
   .skills1 {
     padding: 10px;
-    overflow: hidden; }
+    overflow: hidden;
+    padding-top: 80px;
+    height: auto; }
     .skills1__textbox__title {
       font-size: 10vw; }
     .skills1__textbox__p {
@@ -597,7 +602,8 @@ nav .logo {
   height: 100vh;
   background-color: #131313;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  flex-direction: column; }
   .contentProjects__text {
     color: #ffebd412;
     text-decoration: none;
@@ -615,6 +621,12 @@ nav .logo {
   justify-content: left; }
   .contentProjects__wrap:hover {
     border-bottom: solid 1px #f1efed; }
+  .contentProjects__wrap__alert {
+    display: block;
+    position: absolute;
+    color: #f1efed;
+    font-size: 15px;
+    bottom: 170px; }
 
 @media (max-width: 490px) {
   .contentProjects__text {

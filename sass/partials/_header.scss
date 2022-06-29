@@ -78,6 +78,7 @@ nav .openMenu {
 nav .mainMenu .closeMenu,
 .icons i {
     font-size: 2rem;
+    margin: 20px;
     display: none;
     cursor: pointer;
 }
@@ -120,8 +121,10 @@ nav .logo {
     nav .mainMenu .closeMenu {
         display: block;
         position: absolute;
-        bottom: 30px;
-        margin-bottom: 80px;
+        top: 20px;
+        right: 20px;
+        margin: 0px;
+        margin-right: 15px;
     }
     nav .openMenu {
         display: block;
