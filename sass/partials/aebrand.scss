@@ -1,6 +1,6 @@
 .aestudio {
     display: grid;
-    background-color: $aeGrey;
+    background-color: $aeWhite;
     width: 100%;
     grid-template-columns: 0.3fr 3fr;
     &__list2 {
@@ -33,7 +33,7 @@
 .brandcontent {
     display: flex;
     width: 100%;
-    background-color: $aeGrey;
+    background-color: $aeBlack;
     justify-content: center;
     flex-direction: column;
     gap: 46px;

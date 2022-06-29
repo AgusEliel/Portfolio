@@ -919,7 +919,7 @@ nav .logo {
 
 .aestudio {
   display: grid;
-  background-color: #f1efed;
+  background-color: #ffebd4;
   width: 100%;
   grid-template-columns: 0.3fr 3fr; }
   .aestudio__list2 {
@@ -948,7 +948,7 @@ nav .logo {
 .brandcontent {
   display: flex;
   width: 100%;
-  background-color: #f1efed;
+  background-color: #131313;
   justify-content: center;
   flex-direction: column;
   gap: 46px;
