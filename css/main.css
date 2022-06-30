@@ -347,7 +347,8 @@ nav .logo {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 40px; }
+  gap: 40px;
+  border-top: solid 1px #f1efed; }
   .skills1__textbox {
     display: flex;
     flex-direction: column;
@@ -374,8 +375,7 @@ nav .logo {
   .skills1 {
     padding: 10px;
     overflow: hidden;
-    padding-top: 80px;
-    height: 110vh; }
+    height: 100vh; }
     .skills1__textbox__title {
       font-size: 10vw; }
     .skills1__textbox__p {
@@ -464,7 +464,8 @@ nav .logo {
   color: #f1efed;
   padding: 50px;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  border-top: solid 1px #f1efed; }
   .contactme__form {
     display: flex;
     flex-direction: column;
@@ -966,11 +967,13 @@ nav .logo {
 .contentmain {
   display: flex;
   width: 100%;
-  height: auto;
+  height: 100vh;
   background-color: #131313;
   flex-direction: column;
   align-items: center;
-  margin: auto; }
+  margin: auto;
+  border-top: solid 1px #f1efed;
+  justify-content: center; }
   .contentmain__titlebox {
     display: flex;
     width: 100%;

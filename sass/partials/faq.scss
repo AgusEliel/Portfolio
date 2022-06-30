@@ -1,11 +1,13 @@
 .contentmain {
     display: flex;
     width: 100%;
-    height: auto;
+    height: 100vh;
     background-color: $aeBlack;
     flex-direction: column;
     align-items: center;
     margin: auto;
+    border-top: solid 1px $aeGrey;
+    justify-content: center;
     &__titlebox {
         display: flex;
         width: 100%;

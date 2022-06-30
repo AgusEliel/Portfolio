@@ -9,6 +9,8 @@
     padding: 50px;
     align-items: center;
     justify-content: center;
+    border-top: solid 1px $aeGrey;
+
     &__form {
         display: flex;
         flex-direction: column;
