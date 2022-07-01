@@ -32,12 +32,18 @@ img::selection {
   src: url(../font/Aguselielstudiofont.ttf) format("truetype");
   font-display: "Aguselielstudiofont"; }
 
-body {
-  font-family: "Josefin Sans", serif, "Aguselielstudiofont", "Font Awesome 5 Free";
-  background-color: #131313; }
+@font-face {
+  font-family: "base";
+  src: url(../font/Font/HKGrotesk-Regular.otf); }
 
 html {
   scroll-behavior: smooth; }
+
+body {
+  font-family: "base", serif, "Aguselielstudiofont", "Font Awesome 5 Free";
+  font-size: 100%;
+  background-color: #131313;
+  line-height: 1.44; }
 
 .noise::before {
   position: fixed;
@@ -226,11 +232,12 @@ nav .logo {
       font-weight: 500;
       font-size: 12vw;
       color: #f1efed;
-      font-family: "Josefin Sans";
+      font-family: "base";
       text-align: left;
+      font-weight: bold;
       font-style: italic; }
     .content1__bloque1__label {
-      font-family: "josefin sans";
+      font-family: "base";
       color: #f1efed;
       font-size: 25px;
       font-weight: 400; }
@@ -242,10 +249,10 @@ nav .logo {
       padding: 10px;
       text-decoration: none;
       background: none;
-      border-style: solid;
-      border-color: #f1efed;
+      border: solid 1px #f1efed;
       transition: 350ms;
-      border-width: thin; }
+      border-width: thin;
+      font-family: "base"; }
       .content1__bloque1__btn:active {
         transform: scale(0.95); }
       .content1__bloque1__btn:hover {
@@ -289,21 +296,19 @@ nav .logo {
       color: #f1efed;
       font-weight: bold;
       font-size: 12vh;
-      font-family: "josefin sans";
-      margin: 20px;
-      font-style: italic; }
+      font-family: "base";
+      margin: 20px; }
     .content2__bloque2__text {
-      font-family: "Josefin Sans";
+      font-family: "base";
       font-size: 2rem;
       width: 80%;
-      font-weight: 300;
-      color: #f1efed;
-      overflow: hidden; }
+      font-weight: 400;
+      color: #f1efed; }
     .content2__bloque2__btn {
       color: #f1efed;
       font-weight: 700;
       border-radius: 24px;
-      margin-top: 30px;
+      margin-top: 45px;
       padding: 10px 10px;
       text-decoration: none;
       background: #131313;
@@ -332,7 +337,7 @@ nav .logo {
       .content2__bloque2__h2 {
         font-size: 12vw; }
       .content2__bloque2__text {
-        font-size: 18px; }
+        font-size: 1.5rem; }
       .content2__bloque2__btn {
         margin-top: 30px;
         margin-bottom: 30px; } }
@@ -361,9 +366,13 @@ nav .logo {
       font-weight: 600;
       text-align: center; }
     .skills1__textbox__p {
-      word-spacing: 7px;
-      width: 600px;
-      margin: auto; }
+      width: 80%;
+      margin: auto;
+      font-family: "base";
+      font-size: 2rem;
+      width: 80%;
+      font-weight: 300;
+      color: #f1efed; }
   .skills1__technologies {
     display: flex;
     flex-direction: row;
@@ -374,12 +383,13 @@ nav .logo {
 @media (max-width: 912px) {
   .skills1 {
     padding: 10px;
-    overflow: hidden;
-    height: 100vh; }
+    min-height: 100vh;
+    height: auto; }
     .skills1__textbox__title {
       font-size: 10vw; }
     .skills1__textbox__p {
       width: 95%;
+      font-size: 1.5rem;
       margin: auto;
       margin-top: 15px; }
     .skills1__technologies {
@@ -415,9 +425,13 @@ nav .logo {
       font-weight: 600;
       text-align: center; }
     .skills2__textbox__p {
-      word-spacing: 7px;
-      width: 600px;
-      margin: auto; }
+      width: 80%;
+      margin: auto;
+      font-family: "base";
+      font-size: 2rem;
+      width: 80%;
+      font-weight: 300;
+      overflow: hidden; }
   .skills2__tools {
     display: flex;
     max-width: 300px;
@@ -431,11 +445,14 @@ nav .logo {
 @media (max-width: 912px) {
   .skills2 {
     text-align: center;
-    padding: 10px; }
+    padding: 10px;
+    min-height: 100vh;
+    height: auto;
+    padding: 1rem; }
     .skills2__textbox__p {
       width: 95%;
       margin: auto;
-      font-size: 2.5;
+      font-size: 1.5rem;
       margin-top: 15px; }
     .skills2__textbox__title {
       font-size: 10vw; }
@@ -609,13 +626,13 @@ nav .logo {
     color: #ffebd412;
     text-decoration: none;
     font-size: 40px;
-    font-weight: 400;
-    overflow: hidden; }
+    font-weight: 400; }
     .contentProjects__text__title {
       color: #7f5af0;
       letter-spacing: 0.1px;
       font-size: 100px;
-      font-weight: 600; }
+      font-weight: 600;
+      text-align: center; }
 
 .contentProjects__wrap {
   color: #f1efed;
@@ -629,12 +646,12 @@ nav .logo {
     font-size: 15px;
     bottom: 170px; }
 
-@media (max-width: 490px) {
+@media (max-width: 912px) {
   .contentProjects__text {
     margin: auto;
     font-size: 10vw; }
     .contentProjects__text__title {
-      font-size: 15vw; } }
+      font-size: 10vw; } }
 
 .gallery {
   display: grid;
@@ -973,7 +990,8 @@ nav .logo {
   align-items: center;
   margin: auto;
   border-top: solid 1px #f1efed;
-  justify-content: center; }
+  justify-content: center;
+  overflow: hidden; }
   .contentmain__titlebox {
     display: flex;
     width: 100%;
@@ -981,19 +999,22 @@ nav .logo {
     align-items: center;
     flex-direction: column;
     color: #f1efed;
-    margin-top: 90px; }
+    margin-top: 90px;
+    overflow: hidden; }
     .contentmain__titlebox__title {
       display: flex;
       justify-content: center;
       width: 80%;
+      border-bottom: solid 1px #f1efed;
       font-size: 100px;
-      border-bottom: solid 1px #f1efed; }
+      font-weight: 600; }
   .contentmain__questionbox {
     display: flex;
     width: 80%;
     flex-direction: column;
     transition: 350ms;
-    margin-bottom: 100px; }
+    margin-bottom: 100px;
+    overflow: hidden; }
     .contentmain__questionbox__container {
       width: 100%;
       color: #f1efed;
@@ -1022,6 +1043,9 @@ nav .logo {
       color: #f1efed; }
 
 @media (max-width: 912px) {
+  .contentmain {
+    min-height: 100vh;
+    height: auto; }
   .contentmain__titlebox__title {
     font-size: 10vw; }
   .contentmain__questionbox__container {
@@ -1032,7 +1056,7 @@ nav .logo {
 /* FOOTER */
 .footer {
   display: flex;
-  height: 230px;
+  height: 280px;
   width: 100%;
   text-align: center;
   justify-content: center;
@@ -1042,10 +1066,11 @@ nav .logo {
   font-weight: 500;
   cursor: default;
   color: #131313;
-  overflow: hidden; }
+  overflow: hidden;
+  padding: 1rem; }
 
 .footer__desc {
-  font-size: 24px; }
+  font-size: 2rem; }
 
 .footer__title {
   font-family: "Aguselielstudiofont";
@@ -1069,7 +1094,7 @@ nav .logo {
 
 .footer__text {
   padding-top: 15px;
-  font-size: 18px; }
+  font-size: 1.5rem; }
 
 @media (max-width: 912px) {
   .footer__title {

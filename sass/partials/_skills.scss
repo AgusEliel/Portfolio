@@ -25,9 +25,13 @@
             text-align: center;
         }
         &__p {
-            word-spacing: 7px;
-            width: 600px;
+            width: 80%;
             margin: auto;
+            font-family: "base";
+            font-size: 2rem;
+            width: 80%;
+            font-weight: 300;
+            color: $aeGrey;
         }
     }
     &__technologies {
@@ -42,8 +46,8 @@
 @media (max-width: 912px) {
     .skills1 {
         padding: 10px;
-        overflow: hidden;
-        height: 100vh;
+        min-height: 100vh;
+        height: auto;
 
         &__textbox {
             &__title {
@@ -51,6 +55,7 @@
             }
             &__p {
                 width: 95%;
+                font-size: 1.5rem;
                 margin: auto;
                 margin-top: 15px;
             }
@@ -93,9 +98,13 @@
             text-align: center;
         }
         &__p {
-            word-spacing: 7px;
-            width: 600px;
+            width: 80%;
             margin: auto;
+            font-family: "base";
+            font-size: 2rem;
+            width: 80%;
+            font-weight: 300;
+            overflow: hidden;
         }
     }
     &__tools {
@@ -116,11 +125,14 @@
     .skills2 {
         text-align: center;
         padding: 10px;
+        min-height: 100vh;
+        height: auto;
+        padding: 1rem;
         &__textbox {
             &__p {
                 width: 95%;
                 margin: auto;
-                font-size: 2.5;
+                font-size: 1.5rem;
                 margin-top: 15px;
             }
             &__title {

@@ -25,13 +25,14 @@
             font-weight: 500;
             font-size: 12vw;
             color: $aeGrey;
-            font-family: "Josefin Sans";
+            font-family: "base";
             text-align: left;
+            font-weight: bold;
             font-style: italic;
         }
 
         &__label {
-            font-family: "josefin sans";
+            font-family: "base";
             color: $aeGrey;
             font-size: 25px;
             font-weight: 400;
@@ -45,10 +46,10 @@
             padding: 10px;
             text-decoration: none;
             background: none;
-            border-style: solid;
-            border-color: $aeGrey;
+            border: solid 1px $aeGrey;
             transition: 350ms;
             border-width: thin;
+            font-family: "base";
 
             &:active {
                 transform: scale(0.95);

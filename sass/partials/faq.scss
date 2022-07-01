@@ -8,6 +8,7 @@
     margin: auto;
     border-top: solid 1px $aeGrey;
     justify-content: center;
+    overflow: hidden;
     &__titlebox {
         display: flex;
         width: 100%;
@@ -16,12 +17,15 @@
         flex-direction: column;
         color: $aeGrey;
         margin-top: 90px;
+        overflow: hidden;
+
         &__title {
             display: flex;
             justify-content: center;
             width: 80%;
-            font-size: 100px;
             border-bottom: solid 1px $aeGrey;
+            font-size: 100px;
+            font-weight: 600;
         }
     }
     &__questionbox {
@@ -30,6 +34,8 @@
         flex-direction: column;
         transition: 350ms;
         margin-bottom: 100px;
+        overflow: hidden;
+
         &__container {
             width: 100%;
             color: $aeGrey;
@@ -66,6 +72,10 @@
 }
 
 @media (max-width: 912px) {
+    .contentmain {
+        min-height: 100vh;
+        height: auto;
+    }
     .contentmain__titlebox__title {
         font-size: 10vw;
     }

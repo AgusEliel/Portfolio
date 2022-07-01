@@ -143,7 +143,11 @@
         </header>
         <div class="noise"></div>
         <section class="content1" id="content1">
-            <div data-aos="fade-right" class="content1__bloque1">
+            <div
+                data-aos="fade-up"
+                data-aos-duration="1200"
+                class="content1__bloque1"
+            >
                 <h1 class="content1__bloque1__title">AGUS ELIEL</h1>
                 <label class="content1__bloque1__label"
                     >GRAPHIC DESIGNER & FRONTEND DEV</label
@@ -154,14 +158,18 @@
             </div>
         </section>
         <section class="content2" id="content2">
-            <div data-aos="fade-right" class="content2__bloque2">
+            <div
+                data-aos="fade-up"
+                data-aos-duration="1200"
+                class="content2__bloque2"
+            >
                 <h2 class="content2__bloque2__h2">HELLO I AM AGUSTIN.</h2>
                 <p class="content2__bloque2__text">
-                    I AM A LOVER OF DESIGN AND THE AESTHETICS OF THINGS, I APPLY
-                    ALL MY KNOWLEDGE IN MY DIGITAL AND PHYSICAL PRODUCTS. I AM A
-                    FREELANCE AGENT WITH THE IDEA OF MAKING MY NAME A DIGITAL
-                    ART STUDIO. AND THIS IS MY SPACE TO SHARE MY PROJECTS AS A
-                    DESIGNER AND FRONTEND DEV.
+                    I am a lover of design and the aesthetics of things, i apply
+                    all my knowledge in my digital and physical products. i am a
+                    freelance agent with the idea of making my name a digital
+                    art studio. and this is my space to share my projects as a
+                    designer and frontend dev.
                 </p>
                 <a
                     href="https://drive.google.com/u/0/uc?id=1JW9--t66WMkDAlUIaJ4jljXvu-eT8CtY&export=download"
@@ -171,15 +179,20 @@
                 </a>
             </div>
         </section>
-        <section data-aos="fade-right" class="skills1" id="skills1">
+        <section
+            data-aos="fade-up"
+            data-aos-duration="1200"
+            class="skills1"
+            id="skills1"
+        >
             <div class="skills1__textbox">
                 <h2 class="skills1__textbox__title">TECHNOLOGIES</h2>
                 <p class="skills1__textbox__p">
-                    WELCOME TO MY TECHNOLOGY SECTION, THESE ARE SOME OF THE
-                    TECHNOLOGIES THAT I USE AS A FRONTEND DEVELOPER, HAVING
-                    HTML5 AS THE MAIN TECHNOLOGY, I HIGHLIGHT THE GREAT USE OF
-                    CSS AND SCSS (SASS) AS A COMPILER, AND HANDLING OF
-                    JAVASCRIPT. BOOTSTRAP AS THE MAIN CSS FRAMEWORK.
+                    Welcome to my technology section, these are some of the
+                    technologies that i use as a frontend developer, having
+                    html5 as the main technology, i highlight the great use of
+                    css and scss (sass) as a compiler, and handling of
+                    javascript. bootstrap as the main css framework.
                 </p>
             </div>
             <div class="skills1__technologies">
@@ -193,18 +206,26 @@
             </div>
         </section>
         <section class="skills2">
-            <div data-aos="fade-right" class="skills2__textbox">
+            <div
+                data-aos="fade-up"
+                data-aos-duration="1200"
+                class="skills2__textbox"
+            >
                 <h2 class="skills2__textbox__title">TOOLS</h2>
                 <p class="skills2__textbox__p">
-                    IN THIS PART I SHOW YOU THE TOOLS THAT I USE BOTH TO WORKAND
-                    DESIGN, I HIGHLIGHT THE ADVANCED USE OF PHOTOSHOP AND
-                    ILLUSTRATOR THANKS TO MY STUDIES AS A GRAPHIC DESIGNER. WE
-                    CAN ALSO SEE FIGMA WHICH IS MY MAIN TOOL FOR PROTOTYPING AND
-                    WIREFRAMING. ADOBE XD AND ADOBE AE FOR VIDEO AND ANIMATION
-                    EDITING.
+                    In this part i show you the tools that i use both to workand
+                    design, i highlight the advanced use of photoshop and
+                    illustrator thanks to my studies as a graphic designer. we
+                    can also see figma which is my main tool for prototyping and
+                    wireframing. adobe xd and adobe ae for video and animation
+                    editing.
                 </p>
             </div>
-            <div data-aos="fade-right" class="skills2__tools">
+            <div
+                data-aos="fade-up"
+                data-aos-duration="1200"
+                class="skills2__tools"
+            >
                 <img
                     class="skills2__tools__img"
                     alt="Photoshop"
@@ -237,7 +258,12 @@
                 />
             </div>
         </section>
-        <section data-aos="fade-right" class="contentProjects" id="projects">
+        <section
+            data-aos="fade-up"
+            data-aos-duration="1200"
+            class="contentProjects"
+            id="projects"
+        >
             <ul class="contentProjects__text">
                 <span class="contentProjects__text__title">PROJECTS</span>
                 <li>
@@ -257,7 +283,12 @@
             </ul>
             <span class="contentProjects__wrap__alert">CLICK ONE</span>
         </section>
-        <section data-aos="fade-right" class="contentmain" id="faq">
+        <section
+            data-aos="fade-up"
+            data-aos-duration="1200"
+            class="contentmain"
+            id="faq"
+        >
             <div class="contentmain__titlebox">
                 <h1 class="contentmain__titlebox__title">FAQ</h1>
             </div>
@@ -308,7 +339,8 @@
         </section>
         <section class="contactme" id="contactme">
             <form
-                data-aos="fade-right"
+                data-aos="fade-up"
+                data-aos-duration="1200"
                 class="contactme__form"
                 action=""
                 id="form1"
@@ -425,6 +457,18 @@
                 document.getElementsByTagName("html")[0].style.overflow =
                     "scroll";
             }
+        </script>
+        <script>
+            const details = document.querySelectorAll("details");
+            details.forEach((targetDetail) => {
+                targetDetail.addEventListener("click", () => {
+                    details.forEach((detail) => {
+                        if (detail !== targetDetail) {
+                            detail.removeAttribute("open");
+                        }
+                    });
+                });
+            });
         </script>
     </body>
 </html>

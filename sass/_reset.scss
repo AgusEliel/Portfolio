@@ -23,13 +23,19 @@ img::selection {
     font-display: "Aguselielstudiofont";
 }
 
-body {
-    font-family: "Josefin Sans", serif, "Aguselielstudiofont",
-        "Font Awesome 5 Free";
-    background-color: #131313;
+@font-face {
+    font-family: "base";
+    src: url(../font/Font/HKGrotesk-Regular.otf);
 }
 html {
     scroll-behavior: smooth;
+}
+
+body {
+    font-family: "base", serif, "Aguselielstudiofont", "Font Awesome 5 Free";
+    font-size: 100%;
+    background-color: #131313;
+    line-height: 1.44;
 }
 
 .noise::before {
