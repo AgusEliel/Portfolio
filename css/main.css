@@ -81,6 +81,16 @@ img {
 ul {
   list-style: none; }
 
+.cursor {
+  pointer-events: none; }
+  .cursor__ball {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; }
+    .cursor__ball circle {
+      fill: #f7f8fa; }
+
 /* HEADER */
 nav {
   height: 70px;
