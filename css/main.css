@@ -640,7 +640,6 @@ nav .logo {
   .contentProjects__wrap:hover {
     border-bottom: solid 1px #f1efed; }
   .contentProjects__wrap__alert {
-    position: relative;
     color: #f1efed;
     font-size: 15px;
     bottom: 170px; }
@@ -651,6 +650,10 @@ nav .logo {
     font-size: 10vw; }
     .contentProjects__text__title {
       font-size: 10vw; } }
+
+@media (max-width: 480px) {
+  .contentProjects__wrap__alert {
+    position: relative; } }
 
 .gallery {
   display: grid;

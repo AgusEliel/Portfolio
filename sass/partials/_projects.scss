@@ -31,7 +31,6 @@
     }
 
     &__alert {
-        position: relative;
         color: $aeGrey;
         font-size: 15px;
         bottom: 170px;
@@ -45,5 +44,11 @@
         &__title {
             font-size: 10vw;
         }
+    }
+}
+
+@media (max-width: 480px) {
+    .contentProjects__wrap__alert {
+        position: relative;
     }
 }
