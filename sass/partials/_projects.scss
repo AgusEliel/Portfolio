@@ -31,8 +31,7 @@
     }
 
     &__alert {
-        display: block;
-        position: absolute;
+        position: relative;
         color: $aeGrey;
         font-size: 15px;
         bottom: 170px;

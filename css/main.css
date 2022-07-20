@@ -81,16 +81,6 @@ img {
 ul {
   list-style: none; }
 
-.cursor {
-  pointer-events: none; }
-  .cursor__ball {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000; }
-    .cursor__ball circle {
-      fill: #f7f8fa; }
-
 /* HEADER */
 nav {
   height: 70px;
@@ -650,8 +640,7 @@ nav .logo {
   .contentProjects__wrap:hover {
     border-bottom: solid 1px #f1efed; }
   .contentProjects__wrap__alert {
-    display: block;
-    position: absolute;
+    position: relative;
     color: #f1efed;
     font-size: 15px;
     bottom: 170px; }
