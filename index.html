@@ -61,14 +61,14 @@
         </header>
         <div class="noise"></div>
         <section class="content1" id="content1">
-            <div data-aos="fade-up" data-aos-duration="1200" class="content1__bloque1">
+            <div class="content1__bloque1">
                 <h1 class="content1__bloque1__title">AGUS ELIEL</h1>
                 <label class="content1__bloque1__label">GRAPHIC DESIGNER & FRONTEND DEV</label>
                 <a class="content1__bloque1__btn" href="#content2">MORE ABOUT ME</a>
             </div>
         </section>
         <section class="content2" id="content2">
-            <div data-aos="fade-up" data-aos-duration="1200" class="content2__bloque2">
+            <div class="content2__bloque2">
                 <h2 class="content2__bloque2__h2">HELLO I AM AGUSTIN.</h2>
                 <p class="content2__bloque2__text">
                     I am a lover of design and the aesthetics of things, i apply all my knowledge in my digital and physical products. i am
@@ -84,7 +84,7 @@
             </div>
         </section>
         <section class="skills1" id="skills1">
-            <div data-aos="fade-up" data-aos-duration="1200" class="skills1__textbox">
+            <div class="skills1__textbox">
                 <h2 class="skills1__textbox__title">TECHNOLOGIES</h2>
                 <p class="skills1__textbox__p">
                     Welcome to my technology section, these are some of the technologies that i use as a frontend developer, having html5 as
@@ -92,7 +92,7 @@
                     bootstrap as the main css framework.
                 </p>
             </div>
-            <div data-aos="fade-up" data-aos-duration="1200" class="skills1__technologies">
+            <div class="skills1__technologies">
                 <i class="fa-brands fa-html5"></i>
                 <i class="fa-brands fa-css3-alt"></i>
                 <i class="fa-brands fa-sass"></i>
@@ -103,7 +103,7 @@
             </div>
         </section>
         <section class="skills2">
-            <div data-aos="fade-up" data-aos-duration="1200" class="skills2__textbox">
+            <div class="skills2__textbox">
                 <h2 class="skills2__textbox__title">TOOLS</h2>
                 <p class="skills2__textbox__p">
                     In this part i show you the tools that i use both to workand design, i highlight the advanced use of photoshop and
@@ -111,7 +111,7 @@
                     wireframing. adobe xd and adobe ae for video and animation editing.
                 </p>
             </div>
-            <div data-aos="fade-up" data-aos-duration="1200" class="skills2__tools">
+            <div class="skills2__tools">
                 <img class="skills2__tools__img" alt="Photoshop" src="./icons/photoshop.png" alt="" />
                 <img class="skills2__tools__img" alt="Illustrator" src="./icons/illustrator.png" alt="" />
                 <img class="skills2__tools__img" alt="Figma" src="./icons/figma.png" alt="" />
@@ -120,7 +120,7 @@
             </div>
         </section>
         <section class="contentProjects" id="projects">
-            <ul data-aos="fade-up" data-aos-duration="1200" class="contentProjects__text">
+            <ul class="contentProjects__text">
                 <span class="contentProjects__text__title">PROJECTS</span>
                 <li>
                     <a class="contentProjects__wrap" href="./coverart2021.html">Cover Art 2021</a>
@@ -136,10 +136,10 @@
             <span class="contentProjects__wrap__alert">CLICK ONE</span>
         </section>
         <section class="contentmain" id="faq">
-            <div data-aos="fade-up" data-aos-duration="1200" class="contentmain__titlebox">
+            <div class="contentmain__titlebox">
                 <h1 class="contentmain__titlebox__title">FAQ</h1>
             </div>
-            <div data-aos="fade-up" data-aos-duration="1200" class="contentmain__questionbox">
+            <div class="contentmain__questionbox">
                 <details class="contentmain__questionbox__container">
                     <summary class="contentmain__questionbox__question">HOW MUCH DOES YOUR JOB COST?</summary>
                     <p class="contentmain__questionbox__answer">
@@ -165,13 +165,21 @@
             </div>
         </section>
         <section class="contactme" id="contactme">
-            <form data-aos="fade-up" data-aos-duration="1200" class="contactme__form" action="" id="form1">
+            <form class="contactme__form" action="https://formspree.io/f/mknenjle" method="POST" id="form1">
                 <h2 class="contactme__form__title">CONTACT ME</h2>
                 <input id="name" type="text" name="name" required="required" placeholder="Name" />
                 <input id="mail" type="email" name="mail" required="required" placeholder="Mail" />
                 <input id="phone" type="tel" name="phone" required="required" placeholder="Phone" minlength="10" maxlength="10" />
-                <textarea name="Message" id="message" required="required" placeholder="Type your message here" maxlength="240"></textarea>
+                <textarea
+                    name="Message"
+                    id="message"
+                    required="required"
+                    placeholder="Type your message here"
+                    minlength="15"
+                    maxlength="240"
+                ></textarea>
                 <input type="submit" form="form1" value="Submit" placeholder="Submit" id="btn_submit" />
+                <p id="contacme__form__status"></p>
             </form>
         </section>
         <footer class="footer">
